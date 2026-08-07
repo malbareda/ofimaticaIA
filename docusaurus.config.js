@@ -85,7 +85,7 @@ const config = {
             items: [
               {label: 'Glossari', to: '/recursos/glossari'},
               {label: 'Guia de prompting', to: '/recursos/guia-prompting'},
-              {label: \"L'empresa\", to: '/recursos/lempresa'},
+              {label: 'L\'empresa', to: '/recursos/lempresa'},
               {label: 'Eines del mòdul', to: '/recursos/eines'},
               {label: 'Com es lliura', to: '/recursos/com-lliurar'},
             ],
