@@ -1,0 +1,33 @@
+# Dependències
+/node_modules
+package-lock.json.bak
+
+# Sortida del build
+/build
+.docusaurus
+.cache-loader
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# Editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# ⚠️  Material EXCLUSIU DE PROFESSORAT — mai no ha d'entrar en aquest repositori.
+# Aquestes regles són una xarxa de seguretat: el material de professorat viu
+# fora d'aquesta carpeta, a «Drive-Professorat/».
+**/solucionari*
+**/solucionaris/
+**/*solucio*
+**/examens/
+**/examen-*
+**/rubriques/
+**/*rubrica*
+**/*claus-de-corr*
+**/notes-professorat/
+**/*-professorat.*

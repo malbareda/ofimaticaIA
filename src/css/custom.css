@@ -1,0 +1,28 @@
+:root {
+  --ifm-color-primary: #1f6feb;
+  --ifm-color-primary-dark: #1a63d4;
+  --ifm-color-primary-darker: #185dc8;
+  --ifm-color-primary-darkest: #144da5;
+  --ifm-color-primary-light: #367df0;
+  --ifm-color-primary-lighter: #4286f1;
+  --ifm-color-primary-lightest: #669df4;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #7aa7ff;
+  --ifm-color-primary-dark: #5590ff;
+  --ifm-color-primary-darker: #4384ff;
+  --ifm-color-primary-darkest: #0d61ff;
+  --ifm-color-primary-light: #9fbeff;
+  --ifm-color-primary-lighter: #b1caff;
+  --ifm-color-primary-lightest: #e6eeff;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.12);
+}
+
+/* Etiqueta de sessió a l'índex de blocs */
+.sessio-num {
+  font-variant-numeric: tabular-nums;
+  color: var(--ifm-color-emphasis-600);
+}
