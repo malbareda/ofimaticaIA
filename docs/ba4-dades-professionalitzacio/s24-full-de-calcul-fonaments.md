@@ -1,11 +1,11 @@
 ---
-title: "Introducció al full de càlcul: formats i fórmules bàsiques"
-sidebar_label: "S24 · Introducció al full de càlcul: formats i fórmules bàsiques"
+title: "Full de càlcul: entorn, referències i fórmules"
+sidebar_label: "S24 · Full de càlcul: entorn, referències i fórmules"
 sidebar_position: 1
-description: "Setmana 24 — Introducció al full de càlcul: formats i fórmules bàsiques"
+description: "Setmana 24 — Full de càlcul: entorn, referències i fórmules"
 ---
 
-# Setmana 24 — Introducció al full de càlcul: formats i fórmules bàsiques
+# Setmana 24 — Full de càlcul: entorn, referències i fórmules
 
 **BA4 — Dades i professionalització** · 3 h
 
@@ -20,14 +20,15 @@ En acabar la sessió has de ser capaç de:
 
 1. Distingir referències relatives i absolutes i aplicar-les correctament.
 2. Construir un full amb fórmules bàsiques des de zero.
-3. Personalitzar l'entorn del full de càlcul.
+3. Aplicar formats condicionals que revelin informació útil.
+4. Personalitzar l'entorn del full de càlcul.
 
 ## Continguts
 
-- Entorn de Google Sheets i tipus de dades.
-- Formats de cel·la.
-- Referències absolutes i relatives: el concepte que decideix si t'en surts o no.
-- Fórmules bàsiques.
+- Entorn del full de càlcul i tipus de dades.
+- Formats de cel·la i formats condicionals.
+- Referències absolutes i relatives: el concepte que decideix si te'n surts o no.
+- Fórmules bàsiques i ordre d'operacions.
 
 ## Conceptes clau
 
@@ -47,7 +48,7 @@ En acabar la sessió has de ser capaç de:
 
 ### Què has de fer
 
-Construir un full de càlcul senzill des de zero (pressupost bàsic de l'empresa) aplicant formats i fórmules bàsiques.
+Construir un full de càlcul senzill des de zero (pressupost bàsic de l'empresa) aplicant formats, formats condicionals i fórmules amb referències absolutes i relatives.
 
 ### Ús de la IA en aquesta activitat
 

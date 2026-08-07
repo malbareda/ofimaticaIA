@@ -1,11 +1,11 @@
 ---
-title: "Filtres, formularis i validació de dades"
-sidebar_label: "S29 · Filtres, formularis i validació de dades"
-sidebar_position: 6
-description: "Setmana 29 — Filtres, formularis i validació de dades"
+title: "El full com a base de dades: filtres, macros i intercanvi"
+sidebar_label: "S28 · El full com a base de dades: filtres, macros i intercanvi"
+sidebar_position: 5
+description: "Setmana 28 — El full com a base de dades: filtres, macros i intercanvi"
 ---
 
-# Setmana 29 — Filtres, formularis i validació de dades
+# Setmana 28 — El full com a base de dades: filtres, macros i intercanvi
 
 **BA4 — Dades i professionalització** · 3 h
 
@@ -25,9 +25,10 @@ En acabar la sessió has de ser capaç de:
 
 ## Continguts
 
-- Filtres avançats i ordenació.
-- Validació de dades: evitar que t'introdueixin porqueria.
-- Formularis d'entrada.
+- Filtres avançats, ordenació i protecció de dades.
+- Validació de dades i formularis d'entrada.
+- Macros: gravar-ne una i comparar-la amb codi generat per IA.
+- Importació i exportació a altres formats.
 
 ## Conceptes clau
 
@@ -47,7 +48,7 @@ En acabar la sessió has de ser capaç de:
 
 ### Què has de fer
 
-Construir un sistema de gestió de dades per a l'empresa amb filtres, validació i formulari d'entrada.
+Construir un sistema de gestió de dades per a l'empresa amb filtres, validació, formulari d'entrada i una macro que automatitzi una tasca repetitiva. Exportar-lo a un altre format conservant-ne el funcionament.
 
 ### Ús de la IA en aquesta activitat
 

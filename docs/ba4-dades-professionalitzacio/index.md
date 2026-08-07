@@ -21,14 +21,14 @@ El bloc més seriós. Competència tècnica real amb fulls de càlcul; la IA com
 
 | Setmana | Sessió |
 |---|---|
-| 24 | [Introducció al full de càlcul: formats i fórmules bàsiques](/ba4-dades-professionalitzacio/s24-full-de-calcul-fonaments) |
-| 25 | [Formats condicionals i funcions bàsiques](/ba4-dades-professionalitzacio/s25-formats-condicionals-i-funcions) |
-| 26 | [Funcions lògiques i funcions de text](/ba4-dades-professionalitzacio/s26-funcions-logiques-i-de-text) |
-| 27 | [Cerca de dades: BUSCARV i XLOOKUP](/ba4-dades-professionalitzacio/s27-cerca-de-dades) |
-| 28 | [Gràfics i visualització de dades](/ba4-dades-professionalitzacio/s28-grafics-i-visualitzacio) |
-| 29 | [Filtres, formularis i validació de dades](/ba4-dades-professionalitzacio/s29-filtres-formularis-validacio) |
-| 30 | [IA i dades: verificació i fluxos professionals](/ba4-dades-professionalitzacio/s30-ia-i-dades-verificacio) |
-| 31 | [Agents, bases de dades i tancament del mòdul](/ba4-dades-professionalitzacio/s31-agents-bbdd-i-tancament) |
+| 24 | [Full de càlcul: entorn, referències i fórmules](/ba4-dades-professionalitzacio/s24-full-de-calcul-fonaments) |
+| 25 | [Funcions: estadístiques, lògiques i de text](/ba4-dades-professionalitzacio/s25-funcions) |
+| 26 | [Cerca i creuament de dades](/ba4-dades-professionalitzacio/s26-cerca-de-dades) |
+| 27 | [Gràfics i visualització de dades](/ba4-dades-professionalitzacio/s27-grafics-i-visualitzacio) |
+| 28 | [El full com a base de dades: filtres, macros i intercanvi](/ba4-dades-professionalitzacio/s28-full-com-a-base-de-dades) |
+| 29 | [Skills: empaquetar instruccions reutilitzables](/ba4-dades-professionalitzacio/s29-skills) |
+| 30 | [Muntar un agent amb una clau d'API](/ba4-dades-professionalitzacio/s30-agent-amb-api) |
+| 31 | [Bases de dades i tancament del mòdul](/ba4-dades-professionalitzacio/s31-bbdd-i-tancament) |
 
 ## Avaluació del bloc
 

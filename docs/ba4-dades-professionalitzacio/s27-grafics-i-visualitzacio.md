@@ -1,11 +1,11 @@
 ---
-title: "Funcions lògiques i funcions de text"
-sidebar_label: "S26 · Funcions lògiques i funcions de text"
-sidebar_position: 3
-description: "Setmana 26 — Funcions lògiques i funcions de text"
+title: "Gràfics i visualització de dades"
+sidebar_label: "S27 · Gràfics i visualització de dades"
+sidebar_position: 4
+description: "Setmana 27 — Gràfics i visualització de dades"
 ---
 
-# Setmana 26 — Funcions lògiques i funcions de text
+# Setmana 27 — Gràfics i visualització de dades
 
 **BA4 — Dades i professionalització** · 3 h
 
@@ -18,14 +18,14 @@ aquí és el guió, els objectius i l'enunciat de l'activitat.
 
 En acabar la sessió has de ser capaç de:
 
-1. Resoldre una classificació amb funcions lògiques imbricades.
-2. Netejar un conjunt de dades amb funcions de text.
-3. Verificar que una fórmula generada per IA fa el que diu.
+1. Triar el tipus de gràfic adequat a cada missatge.
+2. Generar i modificar gràfics a partir d'un mateix conjunt de dades.
+3. Justificar quina visualització convé a cada audiència.
 
 ## Continguts
 
-- SI, SI imbricat, I, O.
-- Funcions de text: ESQUERRA, DRETA, MIG i CONCATENA.
+- Tipus de gràfics i quan fer servir cadascun.
+- Bones pràctiques de visualització i maneres habituals de mentir amb un gràfic.
 
 ## Conceptes clau
 
@@ -37,7 +37,7 @@ En acabar la sessió has de ser capaç de:
 
 ---
 
-## Activitat: Classificar i netejar
+## Activitat: La mateixa història, quatre gràfics
 
 ### Context
 
@@ -45,7 +45,7 @@ En acabar la sessió has de ser capaç de:
 
 ### Què has de fer
 
-Classificar dades amb funcions lògiques (per exemple, categoritzar vendes per marge) i netejar un conjunt de dades brut amb funcions de text: separar noms i cognoms, extreure codis.
+Rebre un conjunt de dades i crear-ne 3-4 gràfics diferents que expliquin la mateixa història de maneres diferents. Justificar quin és el més adequat per a cada audiència.
 
 ### Ús de la IA en aquesta activitat
 
@@ -62,7 +62,7 @@ Permès. Recorda que has de documentar el procés: els prompts, les iteracions i
 
 | Codi | Criteri | Tractament |
 |---|---|---|
-| 3.3 | Aplica fórmules i funcions. | Principal |
+| 3.4 | Genera i modifica gràfics de diferents tipus. | Principal |
 
 <!-- Pendent: pesos i descriptors de nivell. -->
 

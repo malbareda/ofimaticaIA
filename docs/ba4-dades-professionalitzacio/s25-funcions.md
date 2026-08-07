@@ -1,11 +1,11 @@
 ---
-title: "Formats condicionals i funcions bàsiques"
-sidebar_label: "S25 · Formats condicionals i funcions bàsiques"
+title: "Funcions: estadístiques, lògiques i de text"
+sidebar_label: "S25 · Funcions: estadístiques, lògiques i de text"
 sidebar_position: 2
-description: "Setmana 25 — Formats condicionals i funcions bàsiques"
+description: "Setmana 25 — Funcions: estadístiques, lògiques i de text"
 ---
 
-# Setmana 25 — Formats condicionals i funcions bàsiques
+# Setmana 25 — Funcions: estadístiques, lògiques i de text
 
 **BA4 — Dades i professionalització** · 3 h
 
@@ -18,14 +18,17 @@ aquí és el guió, els objectius i l'enunciat de l'activitat.
 
 En acabar la sessió has de ser capaç de:
 
-1. Aplicar formats condicionals que revelin informació útil.
-2. Calcular estadístiques descriptives amb funcions.
-3. Introduir dades de fonts diverses en un full.
+1. Resoldre una classificació amb funcions lògiques imbricades.
+2. Netejar un conjunt de dades amb funcions de text.
+3. Calcular estadístiques descriptives amb funcions.
+4. Verificar que una fórmula generada per IA fa el que diu i localitzar-ne l'error.
 
 ## Continguts
 
-- Formats condicionals per veure el que les xifres amaguen.
-- Funcions MITJANA, MAX, MIN, COMPTA i COMPTA.SI.
+- Funcions estadístiques: MITJANA, MAX, MIN, COMPTA i COMPTA.SI.
+- Funcions lògiques: SI, SI imbricat, I, O.
+- Funcions de text: ESQUERRA, DRETA, MIG i CONCATENA.
+- Verificar que una fórmula generada per IA fa el que diu que fa.
 
 ## Conceptes clau
 
@@ -37,7 +40,7 @@ En acabar la sessió has de ser capaç de:
 
 ---
 
-## Activitat: Tendències de vendes
+## Activitat: Classificar i netejar
 
 ### Context
 
@@ -45,7 +48,7 @@ En acabar la sessió has de ser capaç de:
 
 ### Què has de fer
 
-Rebre un conjunt de dades de vendes de l'empresa, aplicar-hi formats condicionals per visualitzar tendències i calcular-ne les estadístiques bàsiques.
+Classificar dades de vendes amb funcions lògiques i netejar un conjunt de dades brut amb funcions de text. Una part de les fórmules arriba generada per IA i conté errors: cal localitzar-los i explicar-los.
 
 ### Ús de la IA en aquesta activitat
 

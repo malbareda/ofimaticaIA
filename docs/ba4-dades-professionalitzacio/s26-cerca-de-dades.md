@@ -1,11 +1,11 @@
 ---
-title: "Gràfics i visualització de dades"
-sidebar_label: "S28 · Gràfics i visualització de dades"
-sidebar_position: 5
-description: "Setmana 28 — Gràfics i visualització de dades"
+title: "Cerca i creuament de dades"
+sidebar_label: "S26 · Cerca i creuament de dades"
+sidebar_position: 3
+description: "Setmana 26 — Cerca i creuament de dades"
 ---
 
-# Setmana 28 — Gràfics i visualització de dades
+# Setmana 26 — Cerca i creuament de dades
 
 **BA4 — Dades i professionalització** · 3 h
 
@@ -18,14 +18,15 @@ aquí és el guió, els objectius i l'enunciat de l'activitat.
 
 En acabar la sessió has de ser capaç de:
 
-1. Triar el tipus de gràfic adequat a cada missatge.
-2. Generar i modificar gràfics a partir d'un mateix conjunt de dades.
-3. Justificar quina visualització convé a cada audiència.
+1. Creuar dues taules amb una funció de cerca.
+2. Diagnosticar per què una cerca retorna un error.
+3. Triar entre BUSCARV i XLOOKUP amb criteri.
 
 ## Continguts
 
-- Tipus de gràfics i quan fer servir cadascun.
-- Bones pràctiques de visualització i maneres habituals de mentir amb un gràfic.
+- BUSCARV i les seves trampes.
+- XLOOKUP com a alternativa moderna.
+- Referències entre taules, fulls i llibres.
 
 ## Conceptes clau
 
@@ -37,7 +38,7 @@ En acabar la sessió has de ser capaç de:
 
 ---
 
-## Activitat: La mateixa història, quatre gràfics
+## Activitat: Creuar dues taules
 
 ### Context
 
@@ -45,7 +46,7 @@ En acabar la sessió has de ser capaç de:
 
 ### Què has de fer
 
-Rebre un conjunt de dades i crear-ne 3-4 gràfics diferents que expliquin la mateixa història de maneres diferents. Justificar quin és el més adequat per a cada audiència.
+Creuar dades entre dues taules de l'empresa (productes i vendes) per generar un informe consolidat, i diagnosticar per què una cerca retorna error.
 
 ### Ús de la IA en aquesta activitat
 
@@ -62,7 +63,8 @@ Permès. Recorda que has de documentar el procés: els prompts, les iteracions i
 
 | Codi | Criteri | Tractament |
 |---|---|---|
-| 3.4 | Genera i modifica gràfics de diferents tipus. | Principal |
+| 3.3 | Aplica fórmules i funcions. | Principal |
+| 3.2 | Utilitza els diversos tipus de dades i referència per a cel·les, rangs, fulles i llibres. | Reforç |
 
 <!-- Pendent: pesos i descriptors de nivell. -->
 

@@ -1,11 +1,11 @@
 ---
-title: "Agents, bases de dades i tancament del mòdul"
-sidebar_label: "S31 · Agents, bases de dades i tancament del mòdul"
+title: "Bases de dades i tancament del mòdul"
+sidebar_label: "S31 · Bases de dades i tancament del mòdul"
 sidebar_position: 8
-description: "Setmana 31 — Agents, bases de dades i tancament del mòdul"
+description: "Setmana 31 — Bases de dades i tancament del mòdul"
 ---
 
-# Setmana 31 — Agents, bases de dades i tancament del mòdul
+# Setmana 31 — Bases de dades i tancament del mòdul
 
 **BA4 — Dades i professionalització** · 3 h
 
@@ -18,15 +18,16 @@ aquí és el guió, els objectius i l'enunciat de l'activitat.
 
 En acabar la sessió has de ser capaç de:
 
-1. Configurar un agent especialitzat i documentar-ne la configuració.
-2. Identificar els elements d'una base de dades relacional.
-3. Explicar en què es diferencia una base de dades d'un full de càlcul.
+1. Identificar els elements d'una base de dades relacional.
+2. Explicar en què es diferencia una base de dades d'un full de càlcul i quan convé cadascuna.
+3. Modelar taules i relacions a partir d'un sistema fet amb full de càlcul.
+4. Generar una consulta, un formulari i un informe amb assistents.
 
 ## Continguts
 
-- Agents: què són, exemples reals i configuració mínima d'un agent existent.
-- Skills: com es defineix una capacitat reutilitzable per a una IA i per què s'ha convertit en un format comú.
-- Bases de dades relacionals: què són, per a què serveixen i en què es diferencien d'un full de càlcul.
+- Bases de dades relacionals: taules, camps, registres i relacions.
+- En què es diferencia una base de dades d'un full de càlcul i quan convé cadascuna.
+- Consultes, formularis i informes amb assistents.
 - Visió global: la IA no és un xat — és personalització, rols, agents, API i integració.
 
 ## Conceptes clau
@@ -39,7 +40,7 @@ En acabar la sessió has de ser capaç de:
 
 ---
 
-## Activitat: Configurar un agent i documentar-lo
+## Activitat: D'un full a una base de dades
 
 ### Context
 
@@ -47,7 +48,7 @@ En acabar la sessió has de ser capaç de:
 
 ### Què has de fer
 
-Configurar un system prompt especialitzat a l'Open WebUI per a una tasca concreta de full de càlcul i documentar què s'ha configurat i per què. Demostració de bases de dades i tancament del mòdul.
+Partint del sistema de gestió construït amb el full de càlcul, identificar-ne els límits i modelar les taules i relacions que tindria com a base de dades. Crear-la amb assistents i generar-ne una consulta, un formulari i un informe.
 
 ### Ús de la IA en aquesta activitat
 

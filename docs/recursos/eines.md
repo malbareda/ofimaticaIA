@@ -20,7 +20,7 @@ La llista definitiva d'eines està pendent de confirmar.
 | Gemini (web) | IA generativa de text i imatge | Compte Google |
 | Open WebUI + Qwen3-32B | IA del centre, sense límit de tokens extern | Servidor del centre |
 | LanguageTool | Correcció ortogràfica i gramatical | Servidor del centre |
-| Claude (gratuït) | IA de referència, tokens limitats | Compte personal |
+| Claude | Demostracions a classe | **Només professorat** (requisit de 18 anys) |
 | ChatGPT (gratuït) | IA de referència, tokens limitats | Compte personal |
 | Microsoft Copilot (web) | IA de referència alternativa | Compte personal |
 | Leonardo AI | Generació d'imatges | Compte gratuït |
