@@ -11,9 +11,13 @@ description: Què és aquest mòdul, com funciona i què s'espera de tu.
 
 **M0223 Aplicacions ofimàtiques** · 1r SMX · 99 h · 3 h per setmana
 
-:::info Esborrany
-Aquests apunts s'estan escrivint. Les pàgines marcades com a esborrany encara
-no tenen el contingut definitiu, però sí el guió del que s'hi treballarà.
+:::info Apunts en construcció
+Els blocs BA1, BA2 i BA3 estan escrits, i de BA4 hi ha la part d'intel·ligència
+artificial. Les sessions de full de càlcul encara tenen només el guió i els
+objectius.
+
+Si trobes un error o una cosa que no s'entén, digues-ho: aquests apunts es
+corregeixen durant el curs.
 :::
 
 ## De què va això
