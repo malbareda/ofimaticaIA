@@ -16,6 +16,7 @@ En acabar la sessió has de ser capaç de:
 1. Explicar amb paraules pròpies què és un token i per què en limita l'ús.
 2. Estimar el cost d'una conversa a partir de preus reals d'API.
 3. Predir què passa quan una conversa desborda la finestra de context.
+4. Fer servir un tokenitzador per comprovar com es parteix un text de veritat.
 
 ## Per què això importa
 
@@ -52,6 +53,87 @@ Alguns exemples aproximats:
 
 Les paraules poc habituals i els noms propis es parteixen en més tokens que les
 paraules corrents. Per això `Vallcorba` costa més tokens que `casa`.
+
+## El tokenitzador
+
+Els tokens no els decideix ningú a mà. Els decideix un programa que es diu
+**tokenitzador** (*tokenizer*), i que fa dues feines inverses:
+
+- **Codificar**: convertir el teu text en una llista de números.
+- **Descodificar**: convertir una llista de números en text.
+
+El model **només veu números**. La paraula `ordinador` no li arriba mai com a
+paraula: li arriba com uns quants identificadors sencers, per exemple `[7412,
+1899]`. Cada número correspon a una entrada del vocabulari del model.
+
+### Com es construeix el vocabulari
+
+El vocabulari no és un diccionari de paraules. Es construeix automàticament a
+partir d'una quantitat enorme de text, amb un procediment que fa això:
+
+1. Comença amb els caràcters solts.
+2. Busca **quina parella de trossos apareix junta més sovint** i la fusiona en un
+   tros nou.
+3. Repeteix desenes de milers de vegades.
+
+El resultat és que **els trossos freqüents acaben sent tokens sencers** i els
+rars queden partits. Per això `de` és un sol token i `desconfiguració` en són
+diversos: el primer surt a tot arreu i el segon gairebé enlloc.
+
+Aquesta tècnica es diu **BPE** (*Byte Pair Encoding*) i és la base dels
+tokenitzadors de la majoria de models actuals.
+
+### Tres coses que sorprenen
+
+**L'espai forma part del token.** A la majoria de tokenitzadors, ` casa` (amb
+espai davant) i `casa` (sense) són tokens **diferents**. Per això el text amb
+espais dobles o salts de línia rars consumeix més del que sembla.
+
+**Els números es parteixen de maneres estranyes.** `2026` pot ser un sol token o
+dos, i `0x8007007e` es parteix en uns quants trossos sense cap lògica visible.
+Això explica per què els models s'equivoquen tant amb aritmètica: no veuen el
+número, veuen trossos.
+
+**Cada model té el seu tokenitzador.** El mateix text pot donar 100 tokens amb un
+model i 130 amb un altre. Els tokenitzadors estan entrenats sobretot amb text en
+anglès, i **el català i el castellà en surten perjudicats**: la mateixa frase
+costa més tokens que la seva traducció anglesa. Una frase en anglès i la seva
+traducció catalana poden diferir en un 20 o un 30 %.
+
+### Exemple orientatiu
+
+Amb un tokenitzador habitual, un text es podria partir així. **Les barres
+verticals marquen on talla:**
+
+```
+Bon| dia|, com| est|às|?
+V|all|corba| Inform|àtica
+im|pres|sora
+0|x|800|700|7|e
+```
+
+:::warning Comprova-ho tu
+Aquests talls són **orientatius**. Depenen del tokenitzador concret i canvien
+d'un model a l'altre.
+
+No et creguis aquesta taula: passa aquestes mateixes cadenes pel comptador de
+tokens que farem servir a classe i mira on talla de veritat. És exactament el que
+et demana la part 1 de l'activitat.
+:::
+
+### Per a què el faràs servir
+
+A la feina, un tokenitzador et serveix per a tres coses molt concretes:
+
+| Per a què | Com |
+|---|---|
+| **Pressupostar** | Comptar els tokens d'un text abans d'enviar-lo i multiplicar pel preu |
+| **Saber si hi cabrà** | Comprovar si un document supera la finestra de context abans d'intentar-ho |
+| **Optimitzar** | Veure quines parts del teu prompt consumeixen més del que aporten |
+
+La manera pràctica de fer-ho és amb un **comptador de tokens web**: enganxes el
+text i et diu quants en són i on talla. Per a feina seriosa, les biblioteques de
+cada proveïdor et deixen fer el mateix des d'un programa.
 
 ### Es paguen dues vegades
 
@@ -122,6 +204,10 @@ torn** perquè arrossega tot l'històric.
 
 ## Activitat: Quant costa parlar amb una IA
 
+:::note Enunciat en format Word
+Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-02-tokens-models-context.docx">Activitat-02-tokens-models-context.docx</a>
+:::
+
 ### Context
 
 La Núria ha llegit el teu informe de la setmana passada i n'ha tret una pregunta
@@ -136,13 +222,38 @@ L'Aleix t'ho ha passat a tu amb un afegit:
 > «Dona-li un número i digue-li de què depèn. Si no li dius de què depèn, es
 > pensarà que és exacte i després m'ho reclamarà a mi.»
 
-### Part 1 — Comptar tokens
+### Part 1 — El tokenitzador per dins
 
-1. Agafa un text d'unes 200 paraules. Pot ser un correu, un fragment
-   d'aquests apunts o el que vulguis.
+**a) Estimar i comprovar.**
+
+1. Agafa un text d'unes 200 paraules. Pot ser un correu, un fragment d'aquests
+   apunts o el que vulguis.
 2. **Estima** quants tokens creus que té, aplicant la regla dels 3-4 caràcters.
 3. **Comprova-ho** amb el comptador de tokens que t'indiqui el professorat.
 4. Anota la diferència entre la teva estimació i el resultat real, en percentatge.
+
+**b) Mirar on talla.**
+
+Passa aquestes cadenes pel tokenitzador i **apunta on parteix cadascuna** i
+quants tokens en surten:
+
+| Cadena | Per què l'hi passem |
+|---|---|
+| `casa` | Paraula molt freqüent |
+| ` casa` (amb un espai davant) | Comprova si l'espai canvia el token |
+| `desconfiguració` | Paraula llarga i poc habitual |
+| `Vallcorba Informàtica` | Nom propi |
+| `0x8007007e` | Codi d'error |
+| `2026` | Número |
+
+**c) Català contra anglès.**
+
+Agafa una frase d'unes 25 paraules, tradueix-la a l'anglès i passa les dues pel
+tokenitzador.
+
+- Quina de les dues consumeix més tokens?
+- Quin percentatge de diferència hi ha?
+- Si una empresa paga per tokens i treballa en català, què li suposa això?
 
 ### Part 2 — El cas del Forn Cardús
 
@@ -184,8 +295,10 @@ Escriu la resposta. **Un màxim de 150 paraules**, i ha de contenir:
 
 1. El full de càlcul amb els càlculs, on es vegin les fórmules.
 2. La comparació entre la teva estimació de tokens i el recompte real.
-3. La resposta a la Núria, de 150 paraules com a màxim.
-4. La documentació del procés d'ús de la IA, si l'has feta servir.
+3. La taula de la part 1b amb els talls observats, i la comparació
+   català/anglès de la part 1c amb el percentatge de diferència.
+4. La resposta a la Núria, de 150 paraules com a màxim.
+5. La documentació del procés d'ús de la IA, si l'has feta servir.
 
 :::tip Ús de la IA
 Permès, però amb un avís: **la IA calcula malament**. Si li demanes els números,
@@ -205,6 +318,9 @@ excusa.
 ### Preguntes que et poden fer
 
 - Per què el cost d'entrada creix a cada torn de la conversa?
+- Per què `casa` i ` casa` poden ser tokens diferents?
+- La versió catalana de la teva frase costava més o menys que l'anglesa? Per què
+  creus que passa això?
 - Si la Sílvia comença a enviar fotos de la pantalla, què li passa al teu càlcul?
 - Quin dels dos models recomanaries i què hauria de passar perquè canviessis
   d'opinió?

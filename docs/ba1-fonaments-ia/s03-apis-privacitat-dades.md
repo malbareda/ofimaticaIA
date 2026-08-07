@@ -112,6 +112,10 @@ Per a la feina diària, dues regles:
 
 ## Activitat: L'informe per al Ferran Amat
 
+:::note Enunciat en format Word
+Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-03-apis-privacitat-dades.docx">Activitat-03-apis-privacitat-dades.docx</a>
+:::
+
 ### Context
 
 Divendres a les cinc. La Laia Puig ha explicat a la Gestoria Amat que Vallcorba

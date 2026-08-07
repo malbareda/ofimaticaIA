@@ -128,6 +128,10 @@ Això no és un detall menor. És la raó per la qual t'has de saber la feina.
 
 ## Activitat: Tres IA, la mateixa pregunta
 
+:::note Enunciat en format Word
+Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-01-presentacio-i-primer-contacte.docx">Activitat-01-presentacio-i-primer-contacte.docx</a>
+:::
+
 ### Context
 
 És el teu segon dia a Vallcorba Informàtica. L'Aleix Ferrer t'ha deixat aquesta

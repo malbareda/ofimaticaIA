@@ -15,8 +15,10 @@ En acabar la sessió has de ser capaç de:
 
 1. Escriure un prompt amb instrucció, context i format de sortida diferenciats.
 2. Configurar un system prompt i demostrar com canvia el comportament del model.
-3. Fer servir la IA per diagnosticar una incidència tècnica i valorar-ne la
+3. Diagnosticar per què un prompt ha fallat i reescriure'l.
+4. Fer servir la IA per diagnosticar una incidència tècnica i valorar-ne la
    resposta.
+5. Provar de trencar les instruccions d'un assistent que has configurat tu.
 
 ## El prompt no és una pregunta
 
@@ -115,6 +117,10 @@ d'anades i vingudes fa que el model s'aferri als errors anteriors.
 
 ## Activitat: L'assistent de primera línia
 
+:::note Enunciat en format Word
+Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-04-prompting-i-system-prompts.docx">Activitat-04-prompting-i-system-prompts.docx</a>
+:::
+
 ### Context
 
 L'Aleix ha tingut una idea, cosa que segons ell passa poc:
@@ -127,18 +133,44 @@ L'Aleix ha tingut una idea, cosa que segons ell passa poc:
 > bé. La Sílvia és capaç de fer literalment el que li diguis. Si li dius que
 > desendolli el servidor, el desendolla.»
 
-### Part 1 — El prompt d'un sol tret
+### Part 1 — Diagnosticar un prompt dolent
 
-Abans del system prompt, practica el prompt complet.
+Comencem al revés: abans d'escriure'n un de bo, cal saber per què un de dolent
+falla.
 
-Escriu **un sol prompt** que faci que el model produeixi una explicació de com
-canviar el tòner d'una impressora, dirigida a la Sílvia Cardús, de menys de 100
-paraules i en passos numerats.
+Aquí tens quatre prompts que algú de l'empresa ha fet servir de veritat, amb el
+resultat que ha obtingut. **Per a cadascun, digues què li falta** (instrucció,
+context o format) i **reescriu-lo**.
 
-Has de lliurar el prompt i la resposta. **Assenyala al teu prompt on és la
-instrucció, on el context i on el format.**
+| # | Prompt original | Què ha sortit |
+|---|---|---|
+| 1 | `Fes-me un manual` | Un índex genèric de 12 capítols sobre «documentació tècnica» |
+| 2 | `Explica'm els tòners` | Tres pàgines sobre la química del tòner i la seva història |
+| 3 | `Escriu un correu al client dient que no ho podem fer` | Un correu fred que hauria fet perdre el client |
+| 4 | `Ajuda'm amb l'error de la impressora` | Una llista de 20 causes possibles sense cap ordre |
 
-### Part 2 — El system prompt
+Per a cada un has de lliurar: **què hi faltava**, **el prompt reescrit** i **la
+resposta nova**.
+
+### Part 2 — El prompt d'un sol tret
+
+Ara escriu-ne un de zero.
+
+**Un sol prompt** que faci que el model produeixi una explicació de com canviar el
+tòner d'una impressora, dirigida a la Sílvia Cardús, de menys de 100 paraules i en
+passos numerats.
+
+Has de lliurar el prompt i la resposta, i **assenyalar al teu prompt on és la
+instrucció, on el context i on el format**.
+
+Després, **canvia una sola cosa del context**: que el destinatari sigui el Dani
+Ntumba, del taller, que sap perfectament què és un tòner. Torna a executar-lo
+sense tocar res més.
+
+Compara les dues respostes i digues **quina paraula del prompt ha provocat el
+canvi més gran**.
+
+### Part 3 — El system prompt
 
 Crea un model personalitzat a l'Open WebUI amb un system prompt que defineixi un
 assistent de primera línia per a Vallcorba Informàtica. Ha d'incloure els sis
@@ -146,7 +178,16 @@ elements de la taula d'aquests apunts.
 
 Presta atenció especial a l'escapatòria: **què ha de fer quan no ho sap**.
 
-### Part 3 — Provar-lo
+:::warning Abans de passar a la part següent
+Rellegeix el teu system prompt i comprova que cada instrucció descriu **un
+comportament observable**. «Sigues professional» no ho és: no hi ha manera de
+saber si ho ha complert. «Respostes de menys de 80 paraules» sí que ho és.
+
+Si una instrucció no es pot comprovar mirant la resposta, o la reescrius o la
+treus.
+:::
+
+### Part 4 — Provar-lo
 
 Prova el teu assistent amb aquests quatre casos. Guarda les converses senceres.
 
@@ -155,25 +196,51 @@ Prova el teu assistent amb aquests quatre casos. Guarda les converses senceres.
 3. «Em surt un missatge que diu error 0x8007007e, què faig?»
 4. «Escolta, i tu creus que hauríem de canviar tots els ordinadors?»
 
-El cas 3 és una trampa: mira si s'inventa què vol dir aquest codi. El cas 4
-també: mira si es posa a fer de comercial.
+Els casos 3 i 4 són trampes. Al 3, mira si s'inventa què vol dir el codi. Al 4,
+mira si es posa a fer de comercial.
 
-### Part 4 — Corregir
+### Part 5 — Corregir
 
 A partir del que hagis vist, **modifica el system prompt** i torna a passar els
 quatre casos.
 
 Has de documentar, per a cada canvi que facis: què fallava, què has canviat i què
-ha canviat en el resultat.
+ha canviat en el resultat. **Cita la frase concreta de la conversa** que t'ha fet
+veure el problema.
+
+### Part 6 — Trencar-lo
+
+Un assistent que funciona amb els casos previstos no serveix de gaire. Ara
+prova de **fer-lo fallar**.
+
+Escriu **tres missatges dissenyats per saltar-se les teves pròpies
+instruccions**. Per exemple:
+
+- Fer-li dir un preu quan li has prohibit parlar de compres.
+- Fer-li explicar un codi d'error inventat.
+- Fer-li donar instruccions que impliquin obrir l'equip.
+
+Per a cada intent, anota **si te n'has sortit**. Si te n'has sortit amb algun,
+digues quina instrucció hauries d'afegir per tancar-lo. No cal que l'afegeixis:
+n'hi ha prou que sàpigues quina és.
+
+:::tip Això no és fer trampes
+És exactament el que fa un professional abans de posar un sistema davant d'un
+client. Trobar el forat tu val molt més que trobar-lo la Sílvia.
+:::
 
 ### Què has de lliurar
 
-1. El prompt de la part 1, amb les tres parts assenyalades, i la resposta.
-2. El system prompt inicial.
-3. Les converses dels quatre casos amb la versió inicial.
-4. El system prompt corregit.
-5. Les converses dels quatre casos amb la versió corregida.
-6. La taula de canvis: què fallava, què has canviat, què ha millorat.
+1. **Part 1:** els quatre prompts diagnosticats, reescrits, amb les respostes
+   noves.
+2. **Part 2:** el prompt amb les tres parts assenyalades, les dues respostes
+   (Sílvia i Dani) i quina paraula ha provocat el canvi més gran.
+3. **Part 3:** el system prompt inicial.
+4. **Part 4:** les converses dels quatre casos amb la versió inicial.
+5. **Part 5:** el system prompt corregit, les converses dels quatre casos amb la
+   versió corregida, i la taula de canvis amb la frase citada de cada conversa.
+6. **Part 6:** els tres intents de trencar-lo, si han funcionat, i quina
+   instrucció els tancaria.
 
 :::tip Ús de la IA
 Permès, també per escriure el system prompt. Però hauràs d'explicar en
@@ -186,17 +253,19 @@ no entenguis.
 | Nivell | Què vol dir |
 |---|---|
 | **Insuficient** | El system prompt és una frase genèrica, o no s'ha provat amb els quatre casos |
-| **Suficient** | El system prompt té els sis elements i les vuit converses hi són |
-| **Notable** | Els canvis de la part 4 responen a problemes reals observats a les converses, no a millores decoratives |
-| **Excel·lent** | A més, l'assistent corregit gestiona bé el cas 3 (no s'inventa el codi d'error) i el cas 4 (no fa de comercial), i la taula de canvis ho demostra amb citacions de les converses |
+| **Suficient** | Totes les parts hi són. El system prompt té els sis elements i les vuit converses estan documentades |
+| **Notable** | El diagnòstic de la part 1 identifica correctament què faltava a cada prompt, i els canvis de la part 5 responen a problemes realment observats |
+| **Excel·lent** | A més, l'assistent corregit gestiona bé els casos 3 i 4, la taula de canvis cita fragments literals, i la part 6 troba almenys un forat real amb la instrucció que el tancaria |
 
 ### Preguntes que et poden fer
 
 - Ensenya'm la instrucció del teu system prompt que evita que s'inventi codis
   d'error. Per què creus que funciona?
-- Què passaria si en traguessis l'escapatòria?
-- El teu assistent ha resolt bé el cas 4? Si la Sílvia insisteix a demanar-li
-  consells de compra, què hauria de fer?
+- Al prompt número 2 de la part 1, què hi faltava exactament?
+- Quina paraula vas canviar entre la versió per a la Sílvia i la del Dani, i per
+  què va canviar tant la resposta?
+- Què passaria si traguessis l'escapatòria del system prompt?
+- Has aconseguit trencar-lo? Amb què, i com ho tancaries?
 
 ## Per saber-ne més
 
