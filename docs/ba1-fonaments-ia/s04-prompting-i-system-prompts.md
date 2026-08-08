@@ -69,6 +69,65 @@ El que sí que funciona, i molt:
 - **Deixar-lo preguntar.** «Si et falta informació per fer-ho bé, pregunta-m'ho
   abans de començar.»
 
+## Tres tècniques més
+
+Curtes i molt rendibles.
+
+### Donar-li exemples
+
+Si el que vols és difícil de descriure però fàcil de mostrar, **mostra-l'hi**.
+
+```
+Classifica la prioritat de cada incidència.
+
+Entrada: "La caixa no funciona i no podem cobrar."
+Prioritat: Crítica
+
+Entrada: "Voldríem afegir un usuari quan pugueu."
+Prioritat: Baixa
+
+Entrada: "Les còpies fallen des de dijous."
+Prioritat:
+```
+
+Amb dos o tres exemples n'hi sol haver prou. **El format dels exemples importa
+tant com el contingut**: si tenen una estructura clara i consistent, la sortida la
+seguirà.
+
+Això té nom: **few-shot**. Demanar-ho sense cap exemple és **zero-shot**.
+
+### Demanar-li que raoni pas a pas
+
+> Explica el raonament pas a pas abans de donar el resultat.
+
+Dos efectes. El primer és que encerta més, sobretot amb càlculs i amb
+classificacions que tenen condicions. **El segon és el que de veritat importa
+aquí: si veus els passos, pots trobar on s'ha equivocat.** Si només et dona el
+resultat, o t'ho creus o ho refàs tu.
+
+:::warning Que raoni no vol dir que encerti
+Un model pot escriure un raonament impecable i arribar a un número equivocat. Els
+passos serveixen **perquè tu els comprovis**, no com a garantia.
+:::
+
+### Delimitar les parts
+
+Quan enganxes material llarg, marca on acaba la teva instrucció i on comencen les
+dades:
+
+```
+### Instrucció ###
+Resumeix el correu de sota en tres punts.
+
+### Correu ###
+<<<
+[aquí el correu]
+>>>
+```
+
+Serveix qualsevol marca consistent: `###`, cometes triples o etiquetes com
+`<correu>...</correu>`. El que no funciona és enganxar-ho tot seguit.
+
 ## El system prompt
 
 Fins ara has escrit prompts que valen per a un missatge. El **system prompt** són

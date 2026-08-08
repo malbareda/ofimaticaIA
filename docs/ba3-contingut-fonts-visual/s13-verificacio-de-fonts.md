@@ -79,6 +79,26 @@ una cosa que pot ser certa o falsa. «El sistema és eficient» no és comprovab
 **4. Deixar rastre.** Anotar què has comprovat i on. Si algú qüestiona l'informe
 d'aquí a tres mesos, la teva anotació és la teva defensa.
 
+### Quan no hi ha font per comprovar
+
+De vegades no tens document contra el qual contrastar. Llavors hi ha un recurs que
+no és una verificació però ajuda: **fer la mateixa pregunta tres vegades en
+converses separades** i comparar les respostes.
+
+| Resultat | Què vol dir |
+|---|---|
+| Les tres coincideixen | Millor senyal. No és cap garantia |
+| Es contradiuen | **No et refiïs de cap.** S'ho està inventant |
+
+Funciona perquè cada resposta es genera de nou: si el model «sap» la cosa, sortirà
+igual; si se l'inventa, cada cop s'inventarà una cosa diferent.
+
+**Ha de ser en converses separades.** Si l'hi preguntes tres vegades a la mateixa,
+la segona ja té la primera resposta al davant i tendirà a repetir-la.
+
+Això es diu **autoconsistència**, i és l'últim recurs: quan hi ha font, mana la
+font.
+
 :::warning No verifiquis amb una altra IA
 Demanar a una IA que comprovi el que ha dit una altra IA no és verificar. És
 duplicar el problema, amb la novetat que ara tens dues fonts que et donen la raó

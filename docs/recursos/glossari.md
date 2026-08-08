@@ -44,6 +44,19 @@ a cada petició.
 
 *Sessions 3 i 30.*
 
+### Autoconsistència
+
+Fer **la mateixa pregunta diverses vegades en converses separades** i comparar les
+respostes.
+
+Si coincideixen, és millor senyal. Si es contradiuen, no et refiïs de cap: el
+model se l'està inventant cada vegada d'una manera.
+
+No serveix repetir-ho a la mateixa conversa: la segona vegada ja té la primera
+resposta al davant.
+
+*[Guia de prompting](/recursos/guia-prompting).*
+
 ### BPE
 
 *Byte Pair Encoding.* La tècnica amb què es construeix el vocabulari d'un
@@ -54,6 +67,17 @@ El resultat és que els trossos de text habituals acaben sent tokens sencers i e
 rars queden partits.
 
 *Sessió 2.*
+
+### Cadena de pensament
+
+*Chain of Thought, CoT.* Demanar-li al model que **escrigui els passos del
+raonament** abans de donar el resultat.
+
+Encerta més amb càlculs i classificacions, i sobretot **et deixa comprovar on
+s'ha equivocat**. Que el raonament sigui impecable no garanteix que el resultat
+sigui correcte.
+
+*[Guia de prompting](/recursos/guia-prompting).*
 
 ### Clau d'API
 
@@ -111,6 +135,38 @@ reforçada.
 
 *Sessió 3.*
 
+### Delimitadors
+
+Marques que separen les parts d'un prompt: `###`, cometes triples `"""`, o
+etiquetes com `<correu>...</correu>`.
+
+Serveixen perquè el model sàpiga on acaben les teves instruccions i on comencen
+les dades. Quan enganxes material llarg, milloren el resultat de manera
+immediata.
+
+*[Guia de prompting](/recursos/guia-prompting).*
+
+### Encadenament de prompts
+
+*Prompt chaining.* Partir una tasca gran en passos, on **la sortida de cada pas
+és l'entrada del següent**.
+
+Millora el resultat perquè cada instrucció és més simple, i sobretot perquè pots
+comprovar cada pas abans que contamini la resta.
+
+*Sessions 8, 14, 17 i 19.*
+
+### Few-shot
+
+Donar-li **un parell d'exemples resolts** abans de demanar-li el teu cas. El
+contrari és **zero-shot**: demanar-ho sense cap exemple.
+
+Serveix quan el que vols és difícil de descriure però fàcil de mostrar. Amb dos o
+tres n'hi sol haver prou; si en calen deu, el problema és que la tasca no està ben
+definida.
+
+*[Guia de prompting](/recursos/guia-prompting).*
+
 ### Format amb pèrdua / sense pèrdua
 
 **Amb pèrdua** (JPEG): l'algorisme llença informació que l'ull nota poc. Pesa molt
@@ -121,6 +177,36 @@ per a captures, gràfics i qualsevol cosa amb text.
 
 *Sessió 15.*
 
+### Fuita de prompt
+
+*Prompt leaking.* Aconseguir que un model **reveli les instruccions que té
+configurades**.
+
+Si el system prompt conté informació interna —preus, proveïdors, condicions no
+públiques—, això és una filtració. **Un system prompt no és un lloc segur.**
+
+*Sessió 4.*
+
+### Injecció de prompt
+
+Intent de fer que un model **es salti les instruccions** que té configurades,
+sovint de manera indirecta: emmarcant la petició com una hipòtesi, com la pregunta
+d'un tercer o com la continuació d'una frase.
+
+Provar de trencar el teu propi assistent abans de posar-lo davant d'un client és
+feina, no entremaliadura.
+
+*Sessió 4.*
+
+### Jailbreak
+
+Fer que un model **se salti les restriccions del fabricant**.
+
+Es diferencia de la injecció de prompt en què l'objectiu no són les teves
+instruccions sinó les del qui ha fet el model.
+
+*Sessió 4.*
+
 ### LLM
 
 *Large Language Model*, model de llenguatge gran. El tipus de model que hi ha
@@ -128,6 +214,16 @@ darrere de gairebé totes les eines del mòdul.
 
 Prediu quin text és més plausible a continuació del que ja hi ha. Tot el que en
 sembla comprensió emergeix d'aquesta operació repetida.
+
+### Meta-prompt
+
+Fer servir la IA **per millorar el teu propi prompt**: ensenyar-li el que penses
+escriure i demanar-li què li falta.
+
+És especialment útil quan no entens per què un resultat no surt bé: sovint et diu
+que li falta una informació que ni t'havies plantejat donar-li.
+
+*[Guia de prompting](/recursos/guia-prompting).*
 
 ### Model
 
@@ -140,26 +236,6 @@ resol la feina prou bé**.
 
 *Sessió 1.*
 
-### Prompt
-
-El que li escrius al model. Té tres parts que convé diferenciar: **instrucció**,
-**context** i **format de sortida**.
-
-La major part dels mals resultats venen d'un prompt dolent, no d'un model dolent.
-
-*Sessió 4.*
-
-### Prompt injection
-
-Intent de fer que un model es salti les instruccions que té configurades, sovint
-de manera indirecta: emmarcant la petició com una hipòtesi, com la pregunta d'un
-tercer o com la continuació d'una frase.
-
-Provar de trencar el teu propi assistent abans de posar-lo davant d'un client és
-feina, no entremaliadura.
-
-*Sessió 4.*
-
 ### PPP
 
 *Punts per polzada* (DPI). **No és una propietat de la imatge**: és una instrucció
@@ -168,6 +244,15 @@ sobre a quina mida s'ha d'imprimir.
 El càlcul que has de saber fer: **píxels ÷ PPP = polzades**.
 
 *Sessió 15.*
+
+### Prompt
+
+El que li escrius al model. Té tres parts que convé diferenciar: **instrucció**,
+**context** i **format de sortida**.
+
+La major part dels mals resultats venen d'un prompt dolent, no d'un model dolent.
+
+*Sessió 4.*
 
 ### RAG
 
@@ -210,6 +295,21 @@ contractar-lo explicant-li la feina el primer dia.
 
 *Sessió 4.*
 
+### Temperatura
+
+Paràmetre que controla **com de previsible és la resposta**. Baixa, el model tria
+gairebé sempre la continuació més probable; alta, obre el ventall.
+
+Baixa per extreure dades, classificar o calcular. Alta per generar idees.
+
+Si el mateix prompt et dona resultats molt diferents cada vegada, no és que el
+model vagi boig: és que la temperatura és alta.
+
+Hi ha un paràmetre germà, **top-p**, que fa una cosa semblant. La recomanació és
+tocar-ne només un.
+
+*[Guia de prompting](/recursos/guia-prompting). Es pot ajustar a l'Open WebUI.*
+
 ### Token
 
 Tros de text d'una mida entre la lletra i la paraula. **És la unitat amb què els
@@ -245,3 +345,10 @@ pot ampliar tant com vulguis perquè es torna a dibuixar cada vegada.
 Un logotip hauria de ser sempre vectorial.
 
 *Sessió 15.*
+
+### Zero-shot
+
+Demanar una cosa **sense donar cap exemple**. És el que fas normalment i per a
+tasques corrents funciona bé.
+
+Vegeu **few-shot** per al cas contrari.

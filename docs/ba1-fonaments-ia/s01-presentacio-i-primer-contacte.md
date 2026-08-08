@@ -101,6 +101,17 @@ dins és un xat com qualsevol altre, però amb tres diferències que importen:
 Hi entres amb el compte del centre. Si no hi pots entrar, és una incidència: no
 et quedis mirant la pantalla, avisa.
 
+:::tip Els paràmetres
+A la configuració hi trobaràs la **temperatura**. Controla com de previsible és la
+resposta: baixa, el model tria gairebé sempre la continuació més probable; alta,
+obre el ventall.
+
+Baixa per extreure dades o calcular. Alta per generar idees. Si el mateix prompt
+et dona resultats molt diferents cada vegada, ja saps per què.
+
+Ho tens explicat a la [guia de prompting](/recursos/guia-prompting).
+:::
+
 ## Conceptes clau d'avui
 
 ### Model
