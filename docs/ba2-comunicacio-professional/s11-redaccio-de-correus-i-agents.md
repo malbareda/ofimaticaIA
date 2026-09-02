@@ -5,6 +5,8 @@ sidebar_position: 7
 description: "Setmana 11 — Redacció professional de correus i agents"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 11 — Redacció professional de correus i agents
 
 **BA2 — Comunicació professional amb IA** · 3 h
@@ -132,6 +134,8 @@ comprometen l'empresa davant d'un tercer, no.
 A la sessió 30 en muntaràs un de veritat. Avui n'has d'entendre el concepte i,
 sobretot, on és el límit.
 
+<Activitat num={11}>
+
 ## Activitat: Tres correus difícils
 
 :::note Enunciat en format Word
@@ -244,6 +248,9 @@ frase que no t'has llegit, el problema serà teu i no del model.
 - L'avís va arribar fora d'horari. Ho has esmentat? Per què sí o per què no?
 - Què et va dir la IA quan li vas demanar que fes de destinatari?
 - La tasca de l'agent que et fa dubtar: què hauria de passar perquè t'hi decidissis?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

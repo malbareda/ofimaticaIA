@@ -5,6 +5,8 @@ sidebar_position: 10
 description: "Setmana 21 — Vídeo digital i generació de música amb IA"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 21 — Vídeo digital i generació de música amb IA
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part B del bloc
@@ -135,6 +137,8 @@ consideren un ús no autoritzat de la seva obra.
 No és una pregunta d'examen amb resposta única. Però la posició «no ho sabia» no
 és acceptable en algú que treballa d'això.
 
+<Activitat num={21}>
+
 ## Activitat: Videotutorial i sintonia
 
 :::note Enunciat en format Word
@@ -245,6 +249,9 @@ més gros que si el manual el porta escrit, perquè es veu fent-ho.
 - Ensenya'm el moment del vídeo on has hagut de fer zoom. Per què allà?
 - La sintonia que has generat: la podríeu fer servir al web de l'empresa? Amb què
   ho has comprovat?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

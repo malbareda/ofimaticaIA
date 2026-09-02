@@ -5,6 +5,8 @@ sidebar_position: 6
 description: "Setmana 17 — Cas pràctic integrat: fonts i imatge"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 17 — Cas pràctic integrat: fonts i imatge
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part A del bloc
@@ -64,6 +66,8 @@ val més que amagar-ho.
 Si una persona que no hi era llegeix la teva documentació, ha de poder fer una
 guia equivalent sobre un altre tema sense preguntar-te res.
 :::
+
+<Activitat num={17}>
 
 ## Activitat: Guia visual per a nous empleats
 
@@ -167,6 +171,9 @@ Aquesta entrevista és més llarga. Prepara-t'hi.
 - La imatge que has generat: quin defecte té?
 - Què has deixat fora de la guia per no passar de dues pàgines?
 - Si demà t'encarreguen la mateixa guia sobre un altre tema, què faries diferent?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

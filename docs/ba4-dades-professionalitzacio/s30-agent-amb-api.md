@@ -5,6 +5,8 @@ sidebar_position: 7
 description: "Setmana 30 — Muntar un agent amb una clau d'API"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 30 — Muntar un agent amb una clau d'API
 
 **BA4 — Dades i professionalització** · 3 h
@@ -149,6 +151,8 @@ amb el teu control de despesa.
 
 Això és, en petit, exactament el que munten les empreses.
 
+<Activitat num={30}>
+
 ## Activitat: El teu agent, la teva skill
 
 :::note Enunciat en format Word
@@ -281,6 +285,9 @@ Una IA resolent un error d'instal·lació és el cas d'ús més real de tot el m
 - Quina incidència t'ha costat més? Com la vas resoldre?
 - La skill s'ha comportat igual a l'agent que a l'altra eina? Si no, per què?
 - Si demà et diuen que la clau s'ha filtrat, què fas primer?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

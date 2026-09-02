@@ -5,6 +5,8 @@ sidebar_position: 5
 description: "Setmana 16 — Generació d'imatges amb IA"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 16 — Generació d'imatges amb IA
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part A del bloc
@@ -112,6 +114,8 @@ No t'has de posicionar, però sí saber que existeix el debat.
 I una regla pràctica: **si demanes explícitament l'estil d'un artista viu i
 identificable, estàs en un terreny que no és clar**. Descriure un estil («aquarel·la
 amb traç solt») no és el mateix que dir un nom.
+
+<Activitat num={16}>
 
 ## Activitat: Del brief a la imatge
 
@@ -222,6 +226,9 @@ amb ulls de qui l'ha de validar.
 - Aquestes imatges les podríeu fer servir en un fullet imprès? Comprova-ho.
 - Recomanaries generar o contractar un fotògraf? Què t'hauria de fer canviar
   d'opinió?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

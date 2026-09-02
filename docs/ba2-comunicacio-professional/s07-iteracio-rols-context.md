@@ -5,6 +5,8 @@ sidebar_position: 3
 description: "Setmana 7 — Iteració, rols i context feeding"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 7 — Iteració, rols i context feeding
 
 **BA2 — Comunicació professional amb IA** · 3 h
@@ -115,6 +117,8 @@ fallits i s'hi aferra. Surt més a compte **obrir una conversa nova amb el promp
 bo**: el que has après de la conversa embrutada és precisament com hauria d'haver
 començat.
 
+<Activitat num={7}>
+
 ## Activitat: Rescatar un encàrrec
 
 :::note Enunciat en format Word
@@ -215,6 +219,9 @@ final, sinó **que el camí fins al text final sigui deliberat**.
 - Has esmentat el pressupost rebutjat fa dos anys? Si no, per què no?
 - Si el destinatari fos el Ferran Amat en comptes del Quim, què canviaries del
   prompt?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

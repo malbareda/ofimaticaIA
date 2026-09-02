@@ -5,6 +5,8 @@ sidebar_position: 6
 description: "Setmana 29 — Skills: empaquetar instruccions reutilitzables"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 29 — Skills: empaquetar instruccions reutilitzables
 
 **BA4 — Dades i professionalització** · 3 h
@@ -122,6 +124,8 @@ client, contrasenyes ni claus d'API.**
 
 Si la skill necessita dades, les ha de rebre com a entrada, no tenir-les a dins.
 :::
+
+<Activitat num={29}>
 
 ## Activitat: La skill de l'empresa
 
@@ -257,6 +261,9 @@ Una skill generada sense entendre-la es detecta a la primera pregunta.
 - Un problema d'activació, es corregeix a la descripció o a les instruccions?
 - Al teu company li va funcionar a la primera? Què li faltava?
 - Si la Rocío et demana el resum d'un mes en comptes d'una setmana, què passa?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

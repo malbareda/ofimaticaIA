@@ -5,6 +5,8 @@ sidebar_position: 6
 description: "Setmana 10 — Correu electrònic: configuració i gestió"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 10 — Correu electrònic: configuració i gestió
 
 **BA2 — Comunicació professional amb IA** · 3 h
@@ -138,6 +140,8 @@ L'agenda electrònica no és una llista de cites: és una eina compartida.
 - **Recordatoris**: perquè un avís de dos dies abans val més que un de cinc
   minuts abans.
 
+<Activitat num={10}>
+
 ## Activitat: Muntar la bústia de l'empresa
 
 :::note Enunciat en format Word
@@ -249,6 +253,9 @@ genèric que no resol res.
   fallat?
 - Per què has enviat el correu al grup amb Cco?
 - Si demà entra un client nou, quants canvis has de fer al teu sistema?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

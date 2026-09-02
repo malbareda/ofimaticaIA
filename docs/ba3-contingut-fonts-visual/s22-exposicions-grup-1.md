@@ -5,6 +5,8 @@ sidebar_position: 11
 description: "Setmana 22 — Exposicions orals (grup 1)"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 22 — Exposicions orals (grup 1)
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part B del bloc
@@ -96,6 +98,8 @@ I has de fer **almenys una pregunta** al llarg de la sessió. Preguntes que
 compten: sobre el contingut, sobre una decisió, sobre una dada. No compten les de
 compromís.
 
+<Activitat num={22}>
+
 ## Activitat: Exposició oral
 
 :::note Enunciat en format Word
@@ -152,6 +156,9 @@ segur:
 - Per què has estructurat la presentació així?
 - Què has deixat fora i per què?
 - Si el client et diu que això és car, què li respons?
+
+
+</Activitat>
 
 ## Criteris d'avaluació
 

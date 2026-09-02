@@ -5,6 +5,8 @@ sidebar_position: 2
 description: "Setmana 2 — Tokens, models i finestra de context"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 2 — Tokens, models i finestra de context
 
 **BA1 — Fonaments i infraestructura d'IA** · 3 h
@@ -202,6 +204,8 @@ El càlcul té tres passos:
 I si és una conversa de diversos torns, recorda que **l'entrada creix a cada
 torn** perquè arrossega tot l'històric.
 
+<Activitat num={2}>
+
 ## Activitat: Quant costa parlar amb una IA
 
 :::note Enunciat en format Word
@@ -324,6 +328,9 @@ excusa.
 - Si la Sílvia comença a enviar fotos de la pantalla, què li passa al teu càlcul?
 - Quin dels dos models recomanaries i què hauria de passar perquè canviessis
   d'opinió?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

@@ -5,6 +5,8 @@ sidebar_position: 1
 description: "Setmana 12 — Introducció a NotebookLM"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 12 — Introducció a NotebookLM
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part A del bloc
@@ -91,6 +93,8 @@ confidencial d'un client?
 Per a documentació tècnica pública o material propi no confidencial, endavant.
 Per a res que porti dades de client, no.
 :::
+
+<Activitat num={12}>
 
 ## Activitat: Amb fonts i sense fonts
 
@@ -180,6 +184,9 @@ d'una que només ho sembla**.
 - Si pugéssim el contracte de la Gestoria Amat a NotebookLM, quin problema hi
   hauria?
 - Per a quina feina de Vallcorba **no** faries servir això?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

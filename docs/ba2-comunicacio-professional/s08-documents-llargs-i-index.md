@@ -5,6 +5,8 @@ sidebar_position: 4
 description: "Setmana 8 — Índex de continguts i documents llargs"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 8 — Índex de continguts i documents llargs
 
 **BA2 — Comunicació professional amb IA** · 3 h
@@ -96,6 +98,8 @@ Mai al revés.
 
 L'apartat de «què fer si falla» és el que distingeix un manual escrit per algú
 que ha atès trucades d'un escrit per algú que no.
+
+<Activitat num={8}>
 
 ## Activitat: El manual del Forn Cardús
 
@@ -201,6 +205,9 @@ cregut.
 - La IA et va afegir alguna cosa que no era al material tècnic? Quina?
 - Per què has posat aquest apartat abans que aquell altre?
 - El teu company s'ha perdut en algun pas. Què has canviat?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

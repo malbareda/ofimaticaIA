@@ -5,6 +5,8 @@ sidebar_position: 2
 description: "Setmana 6 — IA integrada al processador de textos"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 6 — IA integrada al processador de textos
 
 **BA2 — Comunicació professional amb IA** · 3 h
@@ -85,6 +87,8 @@ Val la pena dedicar-hi deu minuts una vegada:
   al menú.
 
 Sembla una pèrdua de temps. Multiplica-ho pels documents que faràs en un any.
+
+<Activitat num={6}>
 
 ## Activitat: La mateixa tasca, dos camins
 
@@ -170,6 +174,9 @@ a cadascuna.
   servir? Per què?
 - La setmana passada vas apuntar on t'encallaves. La IA t'ha resolt aquells punts
   concrets?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

@@ -5,6 +5,8 @@ sidebar_position: 3
 description: "Setmana 14 — Combinació de fonts i síntesi"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 14 — Combinació de fonts i síntesi
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part A del bloc
@@ -87,6 +89,8 @@ Estructures possibles, cadascuna per a un ús:
 | Per rol | Documents que llegeixen perfils diferents |
 
 **Tria abans de generar.** Si generes primer, després només maquilles.
+
+<Activitat num={14}>
 
 ## Activitat: La guia de referència
 
@@ -182,6 +186,9 @@ veure'n cap: el seu instint és harmonitzar.
 - Per què has triat aquesta estructura i no una per temes?
 - On diu la guia que les fonts discrepen? Ensenya-m'ho.
 - El teu company va trigar molt en alguna pregunta. Què has canviat?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

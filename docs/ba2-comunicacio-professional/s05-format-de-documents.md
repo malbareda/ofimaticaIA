@@ -5,6 +5,8 @@ sidebar_position: 1
 description: "Setmana 5 — Format de documents: estils, seccions i capçaleres"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 5 — Format de documents: estils, seccions i capçaleres
 
 **BA2 — Comunicació professional amb IA** · 3 h
@@ -105,6 +107,8 @@ Per lligar-ho amb les seccions: quan crees una secció nova, la seva capçalera
 comença **vinculada** a l'anterior. Si vols que siguin diferents, has de trencar
 aquest vincle explícitament. És l'altra meitat dels problemes de format.
 
+<Activitat num={5}>
+
 ## Activitat: Formatar sense IA
 
 :::note Enunciat en format Word
@@ -175,6 +179,9 @@ El segon punt compta. La setmana vinent el faràs servir per comparar.
 - Si ara et demano que tots els títols siguin verds, quant trigues?
 - Per què la portada no té número de pàgina però la pàgina següent sí?
 - Amb què t'has encallat més?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

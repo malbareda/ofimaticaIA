@@ -5,6 +5,8 @@ sidebar_position: 8
 description: "Setmana 19 — Presentacions assistides per IA"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 19 — Presentacions assistides per IA
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part B del bloc
@@ -75,6 +77,8 @@ vegada.
 Defineix-ne una que no digui «Gràcies». Que porti la conclusió i les dades de
 contacte. És la que es queda projectada durant tot el torn de preguntes.
 :::
+
+<Activitat num={19}>
 
 ## Activitat: Generar i després millorar
 
@@ -194,6 +198,9 @@ presentació i el que menys es fa.
 - Aquest percentatge de la diapositiva 4: d'on surt?
 - Ensenya'm una diapositiva on la versió generada era millor que la teva primera
   idea.
+
+
+</Activitat>
 
 ## Per saber-ne més
 

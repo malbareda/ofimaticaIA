@@ -5,6 +5,8 @@ sidebar_position: 2
 description: "Setmana 13 — Verificació de fonts i contrast d'informació"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 13 — Verificació de fonts i contrast d'informació
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part A del bloc
@@ -107,6 +109,8 @@ i cap document.
 Verificar vol dir **obrir el document original**.
 :::
 
+<Activitat num={13}>
+
 ## Activitat: Caça d'errors
 
 :::note Enunciat en format Word
@@ -207,6 +211,9 @@ Busca les frases que et semblin massa rodones.
   l'informe tal com estava?
 - Has trobat alguna afirmació que no fos falsa però que fos incompleta?
 - Com sabries, d'aquí a tres mesos, què vas comprovar exactament?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

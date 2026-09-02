@@ -5,6 +5,8 @@ sidebar_position: 4
 description: "Setmana 15 — Formats d'imatge i edició bàsica"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 15 — Formats d'imatge i edició bàsica
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part A del bloc
@@ -111,6 +113,8 @@ d'un equip avariat ha de mostrar l'avaria, no ser bonica.
 
 **Exportar.** Triar format i qualitat segons on anirà.
 
+<Activitat num={15}>
+
 ## Activitat: Cada imatge al seu format
 
 :::note Enunciat en format Word
@@ -207,6 +211,9 @@ mentalment cada cop que algú et demani si una imatge servirà per imprimir.
 - Convertir el logotip a PNG li ha tret el fons blanc? Per què?
 - Tens una imatge de 900 píxels d'amplada i l'has d'imprimir a 15 cm. Serveix?
 - Quina de les sis pesava més després de convertir-la? Per què?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

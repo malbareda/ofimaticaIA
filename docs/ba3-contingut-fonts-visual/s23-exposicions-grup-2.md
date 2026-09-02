@@ -5,6 +5,8 @@ sidebar_position: 12
 description: "Setmana 23 — Exposicions orals (grup 2)"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 23 — Exposicions orals (grup 2)
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part B del bloc
@@ -49,6 +51,8 @@ xifra», són exactament els dos errors que has d'evitar tu.
 Qui exposa la segona setmana i comet els mateixos errors que va apuntar la primera
 no ha fet servir l'avantatge que tenia.
 :::
+
+<Activitat num={23}>
 
 ## Activitat: Exposició oral
 
@@ -95,6 +99,9 @@ Les mateixes de la sessió 22, més una:
 
 - Vas veure exposar la meitat del grup. Què vas canviar de la teva exposició
   després d'allò?
+
+
+</Activitat>
 
 ## Tancament de BA3
 

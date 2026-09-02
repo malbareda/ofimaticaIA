@@ -5,6 +5,8 @@ sidebar_position: 4
 description: "Setmana 4 — Prompting bàsic i system prompts"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 4 — Prompting bàsic i system prompts
 
 **BA1 — Fonaments i infraestructura d'IA** · 3 h
@@ -174,6 +176,8 @@ I una cosa que estalvia molt de temps: **quan una conversa s'ha embrutat de
 correccions, comença'n una de nova amb el prompt bo**. Arrossegar deu missatges
 d'anades i vingudes fa que el model s'aferri als errors anteriors.
 
+<Activitat num={4}>
+
 ## Activitat: L'assistent de primera línia
 
 :::note Enunciat en format Word
@@ -325,6 +329,9 @@ no entenguis.
   què va canviar tant la resposta?
 - Què passaria si traguessis l'escapatòria del system prompt?
 - Has aconseguit trencar-lo? Amb què, i com ho tancaries?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

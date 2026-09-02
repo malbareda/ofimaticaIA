@@ -5,6 +5,8 @@ sidebar_position: 3
 description: "Setmana 3 — APIs, privacitat i tractament de dades"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 3 — APIs, privacitat i tractament de dades
 
 **BA1 — Fonaments i infraestructura d'IA** · 3 h
@@ -110,6 +112,8 @@ Per a la feina diària, dues regles:
   d'IA no és cap vergonya; amagar-ho sí que és un problema si després es descobreix.
 - **Revisa-ho abans d'enviar-ho.** Signes tu, no el model.
 
+<Activitat num={3}>
+
 ## Activitat: L'informe per al Ferran Amat
 
 :::note Enunciat en format Word
@@ -210,6 +214,9 @@ privadesa i tu la signes, el problema és teu.
 - Si el Ferran et diu que amb l'eina interna tampoc no s'hi fia, què li respons?
 - Quina de les mesures que has proposat és la més fàcil d'incomplir un dia de
   molta feina?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

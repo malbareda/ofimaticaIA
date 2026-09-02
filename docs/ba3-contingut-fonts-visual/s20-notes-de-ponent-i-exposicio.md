@@ -5,6 +5,8 @@ sidebar_position: 9
 description: "Setmana 20 — Notes per al ponent i tècniques d'exposició"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 20 — Notes per al ponent i tècniques d'exposició
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part B del bloc
@@ -100,6 +102,8 @@ podria arribar a una conclusió equivocada?**
 
 Si la resposta és sí, has simplificat massa.
 :::
+
+<Activitat num={20}>
 
 ## Activitat: Assaig en parelles
 
@@ -201,6 +205,9 @@ no es pot delegar**, i és el que compta.
 - El teu company no va saber dir la idea principal. Què has canviat?
 - A la versió per a la Sílvia, què has hagut de treure? Segueix sent cert?
 - On has previst que aniries de temps a la diapositiva 6?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

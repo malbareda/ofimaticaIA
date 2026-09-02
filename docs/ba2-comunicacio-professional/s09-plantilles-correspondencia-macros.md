@@ -5,6 +5,8 @@ sidebar_position: 5
 description: "Setmana 9 — Plantilles, correspondència, macros i exportació"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 9 — Plantilles, correspondència, macros i exportació
 
 **BA2 — Comunicació professional amb IA** · 3 h
@@ -110,6 +112,8 @@ text i les taules complicades.
 
 Regla: **si el document és definitiu i no s'ha d'editar més, envia'l en PDF.** T'estalvia
 que arribi descol·locat i que algú el canviï sense dir-t'ho.
+
+<Activitat num={9}>
 
 ## Activitat: La carta de renovació
 
@@ -220,6 +224,9 @@ treu-la o esbrina-ho.
 - Obre la macro generada per la IA. Què fa aquesta línia?
 - Per què vas generar tres cartes abans de generar-les totes?
 - Si la Rocío ha d'afegir un client nou l'any que ve, què ha de fer?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

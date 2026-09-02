@@ -5,6 +5,8 @@ sidebar_position: 1
 description: "Setmana 1 — Presentació del mòdul i primer contacte amb la IA"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 1 — Presentació del mòdul i primer contacte amb la IA
 
 **BA1 — Fonaments i infraestructura d'IA** · 3 h
@@ -137,6 +139,8 @@ text plausible, i el text fals sovint és plausible.
 
 Això no és un detall menor. És la raó per la qual t'has de saber la feina.
 
+<Activitat num={1}>
+
 ## Activitat: Tres IA, la mateixa pregunta
 
 :::note Enunciat en format Word
@@ -240,6 +244,9 @@ què has acceptat, modificat o descartat.
   comprovaries?
 - Si demà l'Aleix et demana la mateixa comparació amb una altra pregunta, què
   faries diferent?
+
+
+</Activitat>
 
 ## Per saber-ne més
 

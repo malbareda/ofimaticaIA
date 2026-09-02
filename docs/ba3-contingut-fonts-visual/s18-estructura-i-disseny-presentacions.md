@@ -5,6 +5,8 @@ sidebar_position: 7
 description: "Setmana 18 — Estructura i disseny de presentacions"
 ---
 
+import Activitat from '@site/src/components/Activitat';
+
 # Setmana 18 — Estructura i disseny de presentacions
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part B del bloc
@@ -121,6 +123,8 @@ posar-hi text:
 - **Mode presentador**: notes i cronòmetre a la teva pantalla, la presentació a la
   del públic.
 
+<Activitat num={18}>
+
 ## Activitat: Rànquing a cegues
 
 :::note Enunciat en format Word
@@ -208,6 +212,9 @@ evidència concreta, i això es veu de seguida.
 - La que has posat primera: quin defecte té?
 - En què t'has basat per dir que aquesta estava generada?
 - A la diapositiva que has millorat, què fallava exactament?
+
+
+</Activitat>
 
 ## Per saber-ne més
 
