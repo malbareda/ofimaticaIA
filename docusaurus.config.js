@@ -1,5 +1,6 @@
 // @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
+import remarkHideActivitatToc from './src/plugins/remark-hide-activitat-toc.js';
 
 // Organització i repositori de GitHub.
 //
@@ -39,6 +40,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
           editUrl: `https://github.com/${ORG}/${REPO}/edit/main/`,
+          beforeDefaultRemarkPlugins: [remarkHideActivitatToc],
           // Activa-ho quan el repositori ja tingui historial de commits:
           // showLastUpdateTime: true,
         },
