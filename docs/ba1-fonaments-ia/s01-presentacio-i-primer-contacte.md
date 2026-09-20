@@ -72,44 +72,61 @@ val.
 
 ## Les eines
 
-En farem servir moltes al llarg del curs. Avui n'has de deixar tres a punt.
+En farem servir moltes al llarg del curs. Avui n'has de deixar a punt les primeres.
 
 | Eina | Per a què | Compte |
 |---|---|---|
-| **Open WebUI** del centre | Eina principal del mòdul. Diversos models al mateix lloc | Del centre |
-| **ChatGPT** (gratuït) | Comparació i skills | Personal |
+| **Kimi** | Model frontier xinès, bon raonament i context llarg | Personal |
+| **DeepSeek** | Model open weights xinès, potent i gratuït | Personal |
+| **ChatGPT** (gratuït) | Referència del mercat, comparació i skills | Personal |
 | **Gemini** | Comparació i integració amb Google | Del centre |
 
-Al llarg del curs n'apareixeran més: NotebookLM, Leonardo, Gamma, Suno i alguna
-altra. Les anirem obrint quan calgui.
+Al llarg del curs n'apareixeran més: l'**Open WebUI** del centre (una interfície
+pròpia amb diversos models, que estem muntant i estarà operativa a l'octubre),
+NotebookLM, Leonardo, Gamma, Suno i alguna altra. Les anirem obrint quan calgui.
 
 :::warning Sobre Claude
 Veuràs Claude a exemples i demostracions, però **no n'obriràs cap compte**:
 exigeix 18 anys. Quan surti, serà projectat a classe.
 :::
 
-### Open WebUI
+### Kimi i DeepSeek
 
-És una interfície web que el centre té instal·lada al seu propi servidor. Per
-dins és un xat com qualsevol altre, però amb tres diferències que importen:
+Avui farem servir dues eines que potser no coneixes:
 
-- **Pots triar el model.** Al desplegable de dalt hi ha diversos models. No fan el
-  mateix ni costen el mateix.
-- **Les converses queden al servidor del centre**, no a l'empresa que ha fet el
-  model.
-- **Es pot configurar.** Més endavant hi crearàs models personalitzats amb
-  instruccions pròpies.
+- **Kimi** ([kimi.ai](https://kimi.ai)) — un model frontier fet per Moonshot AI.
+  Destaca pel seu context llarg (pot llegir documents sencers) i el seu raonament.
+  Obre't un compte gratuït.
+- **DeepSeek** ([chat.deepseek.com](https://chat.deepseek.com)) — un model open
+  weights fet per DeepSeek. És sorprenentment potent per ser gratuït i obert, i
+  ha sacsejat el mercat demostrant que no cal un pressupost multimilionari per fer
+  un bon model. Obre't un compte gratuït.
 
-Hi entres amb el compte del centre. Si no hi pots entrar, és una incidència: no
-et quedis mirant la pantalla, avisa.
+Tots dos són xinesos, sí. Més endavant parlarem de privacitat i geopolítica de
+les dades. Avui, el que importa és que funcionen i que els provis.
 
-:::tip Els paràmetres
-A la configuració hi trobaràs la **temperatura**. Controla com de previsible és la
-resposta: baixa, el model tria gairebé sempre la continuació més probable; alta,
-obre el ventall.
+### Open WebUI (a partir d'octubre)
 
-Baixa per extreure dades o calcular. Alta per generar idees. Si el mateix prompt
-et dona resultats molt diferents cada vegada, ja saps per què.
+El centre està muntant una interfície web pròpia, l'**Open WebUI**, on tindràs
+diversos models al mateix lloc i les converses quedaran al servidor del centre,
+no a les empreses que fan els models. Quan estigui operativa — previst per
+l'octubre — passarà a ser l'eina principal del mòdul. Avui encara no hi podem
+entrar.
+
+:::tip Els paràmetres del model
+A moltes eines de xat trobaràs dos ajustos importants:
+
+**Temperatura.** Controla com de previsible és la resposta: baixa, el model tria
+gairebé sempre la continuació més probable; alta, obre el ventall. Baixa per
+extreure dades o calcular. Alta per generar idees. Si el mateix prompt et dona
+resultats molt diferents cada vegada, ja saps per què.
+
+**Esforç de raonament (*reasoning effort*).** Alguns models recents permeten
+ajustar quanta estona «pensen» abans de respondre. Un esforç baix dona respostes
+ràpides per a tasques senzilles; un esforç alt fa que el model dediqui més passos
+interns a raonar, cosa que millora les respostes a problemes complexos però triga
+més i costa més tokens. DeepSeek, per exemple, té un mode de «pensament profund»
+(*deep think*) que pots activar.
 
 Ho tens explicat a la [guia de prompting](/recursos/guia-prompting).
 :::
@@ -126,6 +143,36 @@ Que dos models responguin a la mateixa pregunta no vol dir que responguin igual.
 Un model petit és més ràpid i més barat; un de gran raona millor però costa més.
 **Triar el model és una decisió tècnica**, com triar entre un disc dur i un SSD.
 
+### Models frontier i models open weights
+
+No tots els models es distribueixen igual. La diferència és important perquè
+afecta el que hi pots fer, el que costa i qui controla les teves dades.
+
+**Models frontier (propietaris).** Són els models més potents del moment, fets
+per empreses que no en publiquen els pesos (els números interns que defineixen com
+raona el model). Per fer-los servir, envies el text als seus servidors i reps la
+resposta. Exemples: GPT-4o (OpenAI), Claude (Anthropic), Gemini (Google). Solen
+tenir la millor qualitat en tasques complexes, però no pots saber exactament com
+funcionen per dins, depens de la seva infraestructura i les teves dades hi
+passen.
+
+**Models open weights (pesos oberts).** L'empresa publica els pesos del model
+perquè qualsevol se'ls pugui descarregar i executar al seu propi maquinari.
+Exemples: Llama (Meta), Qwen (Alibaba), DeepSeek, Mistral. No sempre són tan
+potents com els frontier de darrera generació, però tens control total: pots
+executar-los sense connexió, les dades no surten del teu servidor, i pots
+adaptar-los. L'Open WebUI que muntarem al centre, per exemple, podrà executar
+models open weights al nostre propi maquinari.
+
+**Per què importa la distinció?** Perquè quan tries una eina d'IA no estàs triant
+només «quina respon millor». Estàs decidint on van les teves dades, de qui
+depens, i què pots fer si l'empresa canvia les condicions o tanca. Un tècnic
+informàtic ha de saber-ho.
+
+A la pràctica, avui faràs servir tots dos tipus: ChatGPT i Kimi són frontier;
+DeepSeek és open weights (tot i que el fas servir pel seu web, també el podries
+descarregar i executar localment).
+
 ### Prompt
 
 El **prompt** és el que li escrius. Sembla obvi, però la major part dels mals
@@ -141,7 +188,7 @@ Això no és un detall menor. És la raó per la qual t'has de saber la feina.
 
 <Activitat num={1}>
 
-## Activitat: Tres IA, la mateixa pregunta
+## Activitat: Quatre IA, la mateixa pregunta
 
 :::note Enunciat en format Word
 Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-01-presentacio-i-primer-contacte.docx">Activitat-01-presentacio-i-primer-contacte.docx</a>
@@ -153,7 +200,7 @@ Aquesta activitat també està disponible com a document per lliurar al Moodle: 
 nota a la taula:
 
 > «Bon dia. La Núria vol que provem eines d'IA i m'ha demanat un informe. Jo no
-> tinc temps aquesta setmana. Fes-me una comparació de tres eines amb la mateixa
+> tinc temps aquesta setmana. Fes-me una comparació de quatre eines amb la mateixa
 > pregunta i digue'm quina et sembla millor i per què. Que sigui curt, que no me
 > l'acabaré.
 >
@@ -164,14 +211,16 @@ nota a la taula:
 
 Abans de res, l'entorn de treball.
 
-1. Entra a l'**Open WebUI** del centre amb el compte del centre. Comprova que pots
-   canviar de model al desplegable.
-2. Obre un compte a **ChatGPT** i verifica que hi pots escriure.
-3. Comprova que tens accés a **Gemini** amb el compte del centre.
-4. **Instal·la l'extensió de corrector ortogràfic** que t'indiqui el professorat,
+1. Obre un compte a **Kimi** ([kimi.ai](https://kimi.ai)) i verifica que hi pots
+   escriure.
+2. Obre un compte a **DeepSeek** ([chat.deepseek.com](https://chat.deepseek.com))
+   i verifica que hi pots escriure.
+3. Obre un compte a **ChatGPT** (si no en tens) i verifica que hi pots escriure.
+4. Comprova que tens accés a **Gemini** amb el compte del centre.
+5. **Instal·la l'extensió de corrector ortogràfic** que t'indiqui el professorat,
    configura-la en català i comprova que funciona escrivint una frase amb faltes
    en un camp de text.
-5. Comprova que l'extensió es pot **desactivar i tornar a activar** sense
+6. Comprova que l'extensió es pot **desactivar i tornar a activar** sense
    desinstal·lar-la, i mira si té actualitzacions pendents.
 
 :::tip Si alguna cosa falla
@@ -179,7 +228,7 @@ Que alguna cosa no funcioni forma part de l'activitat. Apunta't què has provat 
 què ha passat exactament: el missatge d'error literal, no «no anava».
 :::
 
-### Part 2 — La mateixa pregunta, tres eines
+### Part 2 — La mateixa pregunta, quatre eines
 
 Tria **una** d'aquestes tres preguntes:
 
@@ -191,11 +240,12 @@ Tria **una** d'aquestes tres preguntes:
 
 Fes **exactament la mateixa pregunta**, sense canviar ni una coma, a:
 
-1. Open WebUI (amb el model que t'indiqui el professorat)
-2. ChatGPT
-3. Gemini
+1. **Kimi**
+2. **DeepSeek**
+3. **ChatGPT**
+4. **Gemini**
 
-Guarda les tres respostes senceres.
+Guarda les quatre respostes senceres.
 
 ### Part 3 — La comparació
 
@@ -212,10 +262,10 @@ Compara les tres respostes en aquests quatre punts:
 
 Un document amb:
 
-1. **Captura o registre** que demostri que tens accés a les tres eines i que
+1. **Captura o registre** que demostri que tens accés a les quatre eines i que
    l'extensió està instal·lada i configurada.
 2. **La pregunta** que has triat, escrita literalment.
-3. **Les tres respostes** senceres, identificant quina eina i quin model ha
+3. **Les quatre respostes** senceres, identificant quina eina i quin model ha
    generat cadascuna.
 4. **La comparació** dels quatre punts de la taula.
 5. **La teva conclusió**: quina faries servir per a aquesta feina i per què. Una
@@ -232,14 +282,14 @@ què has acceptat, modificat o descartat.
 
 | Nivell | Què vol dir |
 |---|---|
-| **Insuficient** | Falta alguna de les tres respostes, o la comparació es limita a dir que «són semblants» |
-| **Suficient** | Les tres respostes hi són i la comparació cobreix els quatre punts |
+| **Insuficient** | Falta alguna de les quatre respostes, o la comparació es limita a dir que «són semblants» |
+| **Suficient** | Les quatre respostes hi són i la comparació cobreix els quatre punts |
 | **Notable** | La comparació assenyala diferències concretes amb exemples del text |
 | **Excel·lent** | A més, la conclusió justifica la tria amb un criteri aplicable a altres casos, i el registre d'incidències permetria a un company resoldre el mateix problema |
 
 ### Preguntes que et poden fer
 
-- Quin model has fet servir a l'Open WebUI, i per què aquell?
+- Quina diferència hi ha entre un model frontier i un open weights? Posa un exemple de cada.
 - Alguna de les tres respostes diu alguna cosa que et sembli falsa? Com ho
   comprovaries?
 - Si demà l'Aleix et demana la mateixa comparació amb una altra pregunta, què
