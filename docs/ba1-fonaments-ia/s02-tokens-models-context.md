@@ -286,6 +286,10 @@ Calcula:
    amb els preus que et donarà el professorat.
 
 Fes-ho amb un full de càlcul. És més ràpid i, sobretot, es pot revisar.
+Consulta els preus dels tokens de l'API en les següents webs:
+[Preus a Chatgpt](https://openai.com/ca-ES/business/pricing/#api)
+[Preus a Claude](https://platform.claude.com/docs/en/about-claude/pricing)
+
 
 ### Part 3 — La resposta a la Núria
 
