@@ -20,13 +20,11 @@ La segona és deixar l'ordinador a punt i fer el primer encàrrec.
 
 En acabar la sessió has de ser capaç de:
 
-1. Accedir a les eines d'IA del mòdul i deixar l'entorn de treball operatiu.
+1. Accedir a les tres eines d'IA del mòdul i deixar l'entorn de treball operatiu.
 2. Instal·lar i configurar una extensió de navegador (LanguageTool) seguint les
    especificacions donades a la guia de LanguageTool.
-3. Descriure diferències observables entre les respostes de diversos models a un
+3. Descriure diferències observables entre les respostes de tres models a un
    mateix prompt.
-4. Documentar una incidència d'instal·lació de manera que una altra persona la
-   pugui resoldre.
 
 ## De què va aquest mòdul
 
@@ -77,8 +75,7 @@ En farem servir moltes al llarg del curs. Avui n'has de deixar a punt les primer
 
 | Eina | Per a què | Compte |
 |---|---|---|
-| **Kimi** | Model frontier xinès, bon raonament i context llarg | Personal |
-| **DeepSeek** | Model open weights xinès, potent i gratuït | Personal |
+| **Kimi**, **DeepSeek** o **Mistral** (tria'n una) | Una alternativa als grans models americans | Personal |
 | **ChatGPT** (gratuït) | Referència del mercat i comparació | Personal |
 | **Gemini** | Comparació, integració amb Google i skills | Del centre |
 
@@ -91,9 +88,10 @@ Veuràs Claude a exemples i demostracions, però **no n'obriràs cap compte**:
 exigeix 18 anys. Quan surti, serà projectat a classe.
 :::
 
-### Kimi i DeepSeek
+### Kimi, DeepSeek o Mistral
 
-Avui farem servir dues eines que potser no coneixes:
+De les tres eines d'avui, una la tries tu entre aquestes tres, que potser no
+coneixes:
 
 - **Kimi** ([kimi.ai](https://kimi.ai)) — un model frontier fet per Moonshot AI.
   Destaca pel seu context llarg (pot llegir documents sencers) i el seu raonament.
@@ -102,9 +100,13 @@ Avui farem servir dues eines que potser no coneixes:
   weights fet per DeepSeek. És sorprenentment potent per ser gratuït i obert, i
   ha sacsejat el mercat demostrant que no cal un pressupost multimilionari per fer
   un bon model. Obre't un compte gratuït.
+- **Mistral** ([chat.mistral.ai](https://chat.mistral.ai)) — el xat de Mistral AI,
+  una empresa francesa que també publica models open weights. Obre't un compte
+  gratuït.
 
-Tots dos són xinesos, sí. Més endavant parlarem de privacitat i geopolítica de
-les dades. Avui, el que importa és que funcionen i que els provis.
+Kimi i DeepSeek són xinesos; Mistral és europeu. Més endavant parlarem de
+privacitat i geopolítica de les dades. Avui, el que importa és que funcioni i que
+el provis.
 
 ### Open WebUI (a partir d'octubre)
 
@@ -170,9 +172,9 @@ només «quina respon millor». Estàs decidint on van les teves dades, de qui
 depens, i què pots fer si l'empresa canvia les condicions o tanca. Un tècnic
 informàtic ha de saber-ho.
 
-A la pràctica, avui faràs servir tots dos tipus: ChatGPT i Kimi són frontier;
-DeepSeek és open weights (tot i que el fas servir pel seu web, també el podries
-descarregar i executar localment).
+A la pràctica, avui faràs servir tots dos tipus: ChatGPT i Gemini són frontier;
+DeepSeek i Mistral publiquen models open weights (tot i que els fas servir pel seu
+web, també els podries descarregar i executar localment).
 
 ### Prompt
 
@@ -189,7 +191,7 @@ Això no és un detall menor. És la raó per la qual t'has de saber la feina.
 
 <Activitat num={1}>
 
-## Activitat: Quatre IA, la mateixa pregunta
+## Activitat: Tres IA, la mateixa pregunta
 
 :::note Enunciat en format Word
 Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-01-presentacio-i-primer-contacte.docx">Activitat-01-presentacio-i-primer-contacte.docx</a>
@@ -201,7 +203,7 @@ Aquesta activitat també està disponible com a document per lliurar al Moodle: 
 nota a la taula:
 
 > «Bon dia. La Núria vol que provem eines d'IA i m'ha demanat un informe. Jo no
-> tinc temps aquesta setmana. Fes-me una comparació de quatre eines amb la mateixa
+> tinc temps aquesta setmana. Fes-me una comparació de tres eines amb la mateixa
 > pregunta i digues-me quina et sembla millor i per què. Que sigui curt, que no me
 > l'acabaré.
 >
@@ -212,16 +214,14 @@ nota a la taula:
 
 Abans de res, l'entorn de treball.
 
-1. Obre un compte a **Kimi** ([kimi.ai](https://kimi.ai)) i verifica que hi pots
+1. Obre un compte a **Kimi**, **DeepSeek** o **Mistral** i verifica que hi pots
    escriure.
-2. Obre un compte a **DeepSeek** ([chat.deepseek.com](https://chat.deepseek.com))
-   i verifica que hi pots escriure.
-3. Obre un compte a **ChatGPT** (si no en tens) i verifica que hi pots escriure.
-4. Comprova que tens accés a **Gemini** amb el compte del centre.
-5. **Instal·la l'extensió de corrector ortogràfic** que t'indiqui el professorat,
+2. Obre un compte a **ChatGPT** i verifica que hi pots escriure.
+3. Comprova que tens accés a **Gemini** amb el compte del centre.
+4. **Instal·la l'extensió de corrector ortogràfic** que t'indiqui el professorat,
    configura-la en català i comprova que funciona escrivint una frase amb faltes
    en un camp de text.
-6. Comprova que l'extensió es pot **desactivar i tornar a activar** sense
+5. Comprova que l'extensió es pot **desactivar i tornar a activar** sense
    desinstal·lar-la, i mira si té actualitzacions pendents.
 
 :::tip Si alguna cosa falla
@@ -229,7 +229,7 @@ Que alguna cosa no funcioni forma part de l'activitat. Apunta't què has provat 
 què ha passat exactament: el missatge d'error literal, no «no anava».
 :::
 
-### Part 2 — La mateixa pregunta, quatre eines
+### Part 2 — La mateixa pregunta, tres eines
 
 Tria **una** d'aquestes tres preguntes:
 
@@ -241,16 +241,15 @@ Tria **una** d'aquestes tres preguntes:
 
 Fes **exactament la mateixa pregunta**, sense canviar ni una coma, a:
 
-1. **Kimi**
-2. **DeepSeek**
-3. **ChatGPT**
-4. **Gemini**
+1. **DeepSeek**, **Kimi** o **Mistral**
+2. **ChatGPT**
+3. **Gemini**
 
-Guarda les quatre respostes senceres.
+Guarda les tres respostes senceres.
 
 ### Part 3 — La comparació
 
-Compara les quatre respostes en aquests quatre punts:
+Compara les tres respostes en aquests quatre punts:
 
 | Punt | Què has de mirar |
 |---|---|
@@ -263,10 +262,10 @@ Compara les quatre respostes en aquests quatre punts:
 
 Un document amb:
 
-1. **Captura o registre** que demostri que tens accés a les quatre eines i que
+1. **Captura o registre** que demostri que tens accés a les tres eines i que
    l'extensió està instal·lada i configurada.
 2. **La pregunta** que has triat, escrita literalment.
-3. **Les quatre respostes** senceres, identificant quina eina i quin model ha
+3. **Les tres respostes** senceres, identificant quina eina i quin model ha
    generat cadascuna.
 4. **La comparació** dels quatre punts de la taula.
 5. **La teva conclusió**: quina faries servir per a aquesta feina i per què. Una
@@ -283,15 +282,14 @@ què has acceptat, modificat o descartat.
 
 | Nivell | Què vol dir |
 |---|---|
-| **Insuficient** | Falta alguna de les quatre respostes, o la comparació es limita a dir que «són semblants» |
-| **Suficient** | Les quatre respostes hi són i la comparació cobreix els quatre punts |
+| **Insuficient** | Falta alguna de les tres respostes, o la comparació es limita a dir que «són semblants» |
+| **Suficient** | Les tres respostes hi són i la comparació cobreix els quatre punts |
 | **Notable** | La comparació assenyala diferències concretes amb exemples del text |
 | **Excel·lent** | A més, la conclusió justifica la tria amb un criteri aplicable a altres casos, i el registre d'incidències permetria a un company resoldre el mateix problema |
 
 ### Preguntes que et poden fer
 
-- Quina diferència hi ha entre un model frontier i un open weights? Posa un exemple de cada.
-- Alguna de les quatre respostes diu alguna cosa que et sembli falsa? Com ho
+- Alguna de les tres respostes diu alguna cosa que et sembli falsa? Com ho
   comprovaries?
 - Si demà l'Aleix et demana la mateixa comparació amb una altra pregunta, què
   faries diferent?
