@@ -21,7 +21,8 @@ La segona és deixar l'ordinador a punt i fer el primer encàrrec.
 En acabar la sessió has de ser capaç de:
 
 1. Accedir a les eines d'IA del mòdul i deixar l'entorn de treball operatiu.
-2. Instal·lar i configurar una extensió de navegador seguint unes especificacions.
+2. Instal·lar i configurar una extensió de navegador (LanguageTool) seguint les
+   especificacions donades a la guia de LanguageTool.
 3. Descriure diferències observables entre les respostes de diversos models a un
    mateix prompt.
 4. Documentar una incidència d'instal·lació de manera que una altra persona la
@@ -77,8 +78,8 @@ En farem servir moltes al llarg del curs. Avui n'has de deixar tres a punt.
 | Eina | Per a què | Compte |
 |---|---|---|
 | **Open WebUI** del centre | Eina principal del mòdul. Diversos models al mateix lloc | Del centre |
-| **ChatGPT** (gratuït) | Comparació i skills | Personal |
-| **Gemini** | Comparació i integració amb Google | Del centre |
+| **ChatGPT** (gratuït) | Comparació | Personal |
+| **Gemini** | Comparació, integració amb Google i skills | Del centre |
 
 Al llarg del curs n'apareixeran més: NotebookLM, Leonardo, Gamma, Suno i alguna
 altra. Les anirem obrint quan calgui.
@@ -154,7 +155,7 @@ nota a la taula:
 
 > «Bon dia. La Núria vol que provem eines d'IA i m'ha demanat un informe. Jo no
 > tinc temps aquesta setmana. Fes-me una comparació de tres eines amb la mateixa
-> pregunta i digue'm quina et sembla millor i per què. Que sigui curt, que no me
+> pregunta i digues-me quina et sembla millor i per què. Que sigui curt, que no me
 > l'acabaré.
 >
 > Ah, i abans instal·la't el corrector al navegador, que els informes que envieu
@@ -164,8 +165,8 @@ nota a la taula:
 
 Abans de res, l'entorn de treball.
 
-1. Entra a l'**Open WebUI** del centre amb el compte del centre. Comprova que pots
-   canviar de model al desplegable.
+1. Obre un compte a **Kimi**, **DeepSeek** o **Mistral** i verifica que hi pots
+   escriure.
 2. Obre un compte a **ChatGPT** i verifica que hi pots escriure.
 3. Comprova que tens accés a **Gemini** amb el compte del centre.
 4. **Instal·la l'extensió de corrector ortogràfic** que t'indiqui el professorat,
@@ -191,7 +192,7 @@ Tria **una** d'aquestes tres preguntes:
 
 Fes **exactament la mateixa pregunta**, sense canviar ni una coma, a:
 
-1. Open WebUI (amb el model que t'indiqui el professorat)
+1. DeepSeek, Kimi o Mistral
 2. ChatGPT
 3. Gemini
 
@@ -239,7 +240,6 @@ què has acceptat, modificat o descartat.
 
 ### Preguntes que et poden fer
 
-- Quin model has fet servir a l'Open WebUI, i per què aquell?
 - Alguna de les tres respostes diu alguna cosa que et sembli falsa? Com ho
   comprovaries?
 - Si demà l'Aleix et demana la mateixa comparació amb una altra pregunta, què

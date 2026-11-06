@@ -223,7 +223,7 @@ molt seva:
 
 L'Aleix t'ho ha passat a tu amb un afegit:
 
-> «Dona-li un número i digue-li de què depèn. Si no li dius de què depèn, es
+> «Dona-li un número i digues-li de què depèn. Si no li dius de què depèn, es
 > pensarà que és exacte i després m'ho reclamarà a mi.»
 
 ### Part 1 — El tokenitzador per dins
@@ -277,6 +277,31 @@ Dades per treballar:
 | Resposta de l'assistent | Unes 150 paraules |
 | Instruccions del sistema | 300 paraules, s'envien a cada torn |
 
+#### Exemple resolt: una consulta de només 2 torns
+
+El model no recorda res entre una crida i la següent. Cada vegada que la Sílvia
+escriu, l'aplicació li ha de tornar a enviar tot el que necessita per entendre la
+conversa: les instruccions del sistema, tots els missatges anteriors (seus i de
+l'assistent) i el missatge nou. Per passar de paraules a tokens suposem 1,5 tokens
+per paraula, de manera que les instruccions són 450 tokens, cada missatge de la
+Sílvia 90 i cada resposta de l'assistent 225.
+
+Al torn 1 s'envien les instruccions i el primer missatge: 450 + 90 = 540 tokens
+d'entrada, i el model respon amb 225 tokens de sortida. Al torn 2 cal
+reenviar-ho tot, perquè sense l'historial el model no sabria de quina impressora
+parla ni què li havia dit que provés: 450 (instruccions) + 90 (missatge 1) + 225
+(resposta 1) + 90 (missatge 2) = 855 tokens d'entrada, i una altra resposta de
+225. La consulta sencera suma 540 + 855 = **1.395 tokens d'entrada** i 225 + 225 =
+**450 de sortida**. Fixa't que la primera resposta es paga dues vegades: com a
+sortida quan el model l'escriu i com a entrada al torn següent.
+
+Si haguéssim comptat només el que és nou a cada torn (les instruccions un sol cop
+més els dos missatges), ens sortirien 630 tokens d'entrada en lloc de 1.395:
+menys de la meitat. Amb més torns l'error és encara més gran, perquè cada torn
+arrossega tot l'anterior. Per al mes, es multiplica per les 40 consultes (55.800
+tokens d'entrada i 18.000 de sortida) i després pel preu per milió de tokens de
+cada model, tenint en compte que l'entrada i la sortida tenen preus diferents.
+
 Calcula:
 
 1. Els tokens d'entrada i de sortida **d'una consulta sencera**, tenint en compte
@@ -285,7 +310,9 @@ Calcula:
 3. El **cost mensual amb un model barat** i el **cost mensual amb un model car**,
    amb els preus que et donarà el professorat.
 
-Fes-ho amb un full de càlcul. És més ràpid i, sobretot, es pot revisar.
+Consulta els preus dels tokens de l'API en aquestes webs:
+[Preus a ChatGPT](https://openai.com/ca-ES/business/pricing/#api) ·
+[Preus a Claude](https://platform.claude.com/docs/en/about-claude/pricing).
 
 ### Part 3 — La resposta a la Núria
 
@@ -297,7 +324,7 @@ Escriu la resposta. **Un màxim de 150 paraules**, i ha de contenir:
 
 ### Què has de lliurar
 
-1. El full de càlcul amb els càlculs, on es vegin les fórmules.
+1. Els càlculs, on es vegin les fórmules.
 2. La comparació entre la teva estimació de tokens i el recompte real.
 3. La taula de la part 1b amb els talls observats, i la comparació
    català/anglès de la part 1c amb el percentatge de diferència.

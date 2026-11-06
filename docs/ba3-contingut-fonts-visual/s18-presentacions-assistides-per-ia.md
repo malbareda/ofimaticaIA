@@ -1,13 +1,13 @@
 ---
 title: "Presentacions assistides per IA"
-sidebar_label: "S19 · Presentacions assistides per IA"
+sidebar_label: "S18 · Presentacions assistides per IA"
 sidebar_position: 8
-description: "Setmana 19 — Presentacions assistides per IA"
+description: "Setmana 18 — Presentacions assistides per IA"
 ---
 
 import Activitat from '@site/src/components/Activitat';
 
-# Setmana 19 — Presentacions assistides per IA
+# Setmana 18 — Presentacions assistides per IA
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part B del bloc
 
@@ -78,12 +78,12 @@ Defineix-ne una que no digui «Gràcies». Que porti la conclusió i les dades d
 contacte. És la que es queda projectada durant tot el torn de preguntes.
 :::
 
-<Activitat num={19}>
+<Activitat num={18}>
 
 ## Activitat: Generar i després millorar
 
 :::note Enunciat en format Word
-Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-19-presentacions-assistides-per-ia.docx">Activitat-19-presentacions-assistides-per-ia.docx</a>
+Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-18-presentacions-assistides-per-ia.docx">Activitat-18-presentacions-assistides-per-ia.docx</a>
 :::
 
 ### Context
@@ -97,7 +97,7 @@ Continuació directa de la sessió anterior:
 > Podeu fer servir el generador, però la vull vostra. Si em porteu el que us ha
 > escopit l'eina, es notarà.»
 
-**Aquesta presentació és la que exposaràs a la sessió 22 o 23.** El que facis
+**Aquesta presentació és la que exposaràs a la sessió 21 o 23.** El que facis
 avui és el que defensaràs davant del grup.
 
 ### Part 1 — El missatge, abans de res
@@ -182,7 +182,7 @@ sigui bonica.
 |---|---|
 | **Insuficient** | La presentació final és pràcticament la generada, o hi ha dades sense verificar |
 | **Suficient** | Hi ha plantilla pròpia, el registre de canvis és real i la idea única es reconeix |
-| **Notable** | Els canvis responen a criteris de la sessió 18 i s'han eliminat diapositives, no només retocat |
+| **Notable** | Els canvis responen a criteris de la sessió 17 i s'han eliminat diapositives, no només retocat |
 | **Excel·lent** | A més, l'estructura serveix el missatge en comptes de cobrir el tema, i la comparació de la part 6 reconeix on l'eina ho feia bé |
 
 :::warning El senyal d'alerta

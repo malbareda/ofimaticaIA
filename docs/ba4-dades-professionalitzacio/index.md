@@ -8,7 +8,7 @@ description: "El bloc més seriós. Competència tècnica real amb fulls de càl
 
 # BA4 — Dades i professionalització
 
-**Setmanes 24-31** · 24 h · RA3, RA4
+**Setmanes 23-30** · 24 h · RA3, RA4
 
 El bloc més seriós. Competència tècnica real amb fulls de càlcul; la IA com a suport, no com a muleta.
 
@@ -21,14 +21,14 @@ El bloc més seriós. Competència tècnica real amb fulls de càlcul; la IA com
 
 | Setmana | Sessió |
 |---|---|
-| 24 | [Full de càlcul: entorn, referències i fórmules](/ba4-dades-professionalitzacio/s24-full-de-calcul-fonaments) |
-| 25 | [Funcions: estadístiques, lògiques i de text](/ba4-dades-professionalitzacio/s25-funcions) |
-| 26 | [Cerca i creuament de dades](/ba4-dades-professionalitzacio/s26-cerca-de-dades) |
-| 27 | [Gràfics i visualització de dades](/ba4-dades-professionalitzacio/s27-grafics-i-visualitzacio) |
-| 28 | [El full com a base de dades: filtres, macros i intercanvi](/ba4-dades-professionalitzacio/s28-full-com-a-base-de-dades) |
-| 29 | [Skills: empaquetar instruccions reutilitzables](/ba4-dades-professionalitzacio/s29-skills) |
-| 30 | [Muntar un agent amb una clau d'API](/ba4-dades-professionalitzacio/s30-agent-amb-api) |
-| 31 | [Bases de dades i tancament del mòdul](/ba4-dades-professionalitzacio/s31-bbdd-i-tancament) |
+| 23 | [Full de càlcul: entorn, referències i fórmules](/ba4-dades-professionalitzacio/s23-full-de-calcul-fonaments) |
+| 24 | [Funcions: estadístiques, lògiques i de text](/ba4-dades-professionalitzacio/s24-funcions) |
+| 25 | [Cerca i creuament de dades](/ba4-dades-professionalitzacio/s25-cerca-de-dades) |
+| 26 | [Gràfics i visualització de dades](/ba4-dades-professionalitzacio/s26-grafics-i-visualitzacio) |
+| 27 | [El full com a base de dades: filtres, macros i intercanvi](/ba4-dades-professionalitzacio/s27-full-com-a-base-de-dades) |
+| 28 | [Skills i tasques programades](/ba4-dades-professionalitzacio/s28-skills) |
+| 29 | [Muntar un agent amb una clau d'API](/ba4-dades-professionalitzacio/s29-agent-amb-api) |
+| 30 | [Bases de dades i tancament del mòdul](/ba4-dades-professionalitzacio/s30-bbdd-i-tancament) |
 
 ## Avaluació del bloc
 

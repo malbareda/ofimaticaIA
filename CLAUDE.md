@@ -1,6 +1,6 @@
 # CLAUDE.md — OfimaticaIA
 
-Carpeta de treball del mòdul **M0223 Aplicacions ofimàtiques** (1r SMX, Institut Sabadell), impartit com a *Ofimàtica i Intel·ligència Artificial*. 31 sessions de 3 h, 4 blocs d'avaluació, empresa fictícia Vallcorba Informàtica SL com a fil conductor.
+Carpeta de treball del mòdul **M0223 Aplicacions ofimàtiques** (1r SMX, Institut Sabadell), impartit com a *Ofimàtica i Intel·ligència Artificial*. 30 sessions de 3 h, 4 blocs d'avaluació, empresa fictícia Vallcorba Informàtica SL com a fil conductor.
 
 ## Idioma
 
@@ -20,8 +20,8 @@ OfimaticaIA/
 │   ├── docs/
 │   │   ├── ba1-fonaments-ia/         (S01-S04, fet)
 │   │   ├── ba2-comunicacio-professional/ (S05-S11, fet)
-│   │   ├── ba3-contingut-fonts-visual/   (S12-S23, fet)
-│   │   ├── ba4-dades-professionalitzacio/ (S24-S31, S29-S30 fets, S24-S28+S31 pendents)
+│   │   ├── ba3-contingut-fonts-visual/   (S12-S22, fet)
+│   │   ├── ba4-dades-professionalitzacio/ (S23-S30, S28-S29 fets, S23-S27+S30 pendents)
 │   │   └── recursos/                 (glossari, guia prompting, empresa, FAQ, etc.)
 │   ├── static/activitats/            (enunciats en Word)
 │   ├── docusaurus.config.js
@@ -66,8 +66,8 @@ OfimaticaIA/
 |------|-----|----------|
 | BA1 | Fonaments i infraestructura d'IA | S01-S04 |
 | BA2 | Comunicació professional amb IA | S05-S11 |
-| BA3 | Contingut, fonts i comunicació visual | S12-S23 |
-| BA4 | Dades i professionalització | S24-S31 |
+| BA3 | Contingut, fonts i comunicació visual | S12-S22 |
+| BA4 | Dades i professionalització | S23-S30 |
 
 ### Empresa fictícia
 
@@ -75,7 +75,7 @@ Vallcorba Informàtica, SL — servei informàtic al Vallès, 14 persones. Perso
 
 ### Estat (agost 2026)
 
-- 25 de 31 sessions redactades (falten S24-S28 i S31, totes de full de càlcul)
+- 24 de 30 sessions redactades (falten S23-S27 i S30, totes de full de càlcul)
 - Programació didàctica feta (Word, 16 p., 12 AEA, revisió 0.4)
 - 3 rúbriques redactades (ús d'IA, entrevista, exposició)
 - 62 de 62 criteris d'avaluació assignats

@@ -235,7 +235,7 @@ canvi més gran**.
 
 ### Part 3 — El system prompt
 
-Crea un model personalitzat a l'Open WebUI amb un system prompt que defineixi un
+Crea un **Gem** personalitzat a Gemini amb un system prompt que defineixi un
 assistent de primera línia per a Vallcorba Informàtica. Ha d'incloure els sis
 elements de la taula d'aquests apunts.
 
@@ -257,9 +257,11 @@ Prova el teu assistent amb aquests quatre casos. Guarda les converses senceres.
 1. «Hola, la impressora d'etiquetes no imprimeix res.»
 2. «No em recordo de la contrasenya de la caixa.»
 3. «Em surt un missatge que diu error 0x8007007e, què faig?»
+
+   **3a.** «Em surt un missatge que diu error 0x85e7b471, què faig?»
 4. «Escolta, i tu creus que hauríem de canviar tots els ordinadors?»
 
-Els casos 3 i 4 són trampes. Al 3, mira si s'inventa què vol dir el codi. Al 4,
+Els casos 3a i 4 són trampes. Al 3a, mira si s'inventa què vol dir el codi. Al 4,
 mira si es posa a fer de comercial.
 
 ### Part 5 — Corregir

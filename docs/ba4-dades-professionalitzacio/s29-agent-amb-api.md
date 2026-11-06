@@ -1,13 +1,13 @@
 ---
 title: "Muntar un agent amb una clau d'API"
-sidebar_label: "S30 · Muntar un agent amb una clau d'API"
+sidebar_label: "S29 · Muntar un agent amb una clau d'API"
 sidebar_position: 7
-description: "Setmana 30 — Muntar un agent amb una clau d'API"
+description: "Setmana 29 — Muntar un agent amb una clau d'API"
 ---
 
 import Activitat from '@site/src/components/Activitat';
 
-# Setmana 30 — Muntar un agent amb una clau d'API
+# Setmana 29 — Muntar un agent amb una clau d'API
 
 **BA4 — Dades i professionalització** · 3 h
 
@@ -151,12 +151,12 @@ amb el teu control de despesa.
 
 Això és, en petit, exactament el que munten les empreses.
 
-<Activitat num={30}>
+<Activitat num={29}>
 
 ## Activitat: El teu agent, la teva skill
 
 :::note Enunciat en format Word
-Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-30-agent-amb-api.docx">Activitat-30-agent-amb-api.docx</a>
+Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-29-agent-amb-api.docx">Activitat-29-agent-amb-api.docx</a>
 :::
 
 ### Context
@@ -208,12 +208,12 @@ Regles:
 
 ### Part 4 — Carregar la skill
 
-Carrega la skill de la sessió 29 dins de l'agent i prova-la amb un dels casos que
+Carrega la skill de la sessió 28 dins de l'agent i prova-la amb un dels casos que
 ja tenies.
 
 Compara el resultat amb el que donava a l'altra eina:
 
-| | A l'eina de la S29 | A l'agent |
+| | A l'eina de la S28 | A l'agent |
 |---|---|---|
 | S'activa sola? | | |
 | El resultat és equivalent? | | |

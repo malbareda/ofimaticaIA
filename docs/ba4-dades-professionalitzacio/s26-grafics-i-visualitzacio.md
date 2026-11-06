@@ -1,11 +1,11 @@
 ---
 title: "Gràfics i visualització de dades"
-sidebar_label: "S27 · Gràfics i visualització de dades"
+sidebar_label: "S26 · Gràfics i visualització de dades"
 sidebar_position: 4
-description: "Setmana 27 — Gràfics i visualització de dades"
+description: "Setmana 26 — Gràfics i visualització de dades"
 ---
 
-# Setmana 27 — Gràfics i visualització de dades
+# Setmana 26 — Gràfics i visualització de dades
 
 **BA4 — Dades i professionalització** · 3 h
 

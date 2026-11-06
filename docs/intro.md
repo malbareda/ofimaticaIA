@@ -63,5 +63,5 @@ has pres. Consulta [Com es lliura](/recursos/com-lliurar).
 |---|---|---|---|---|
 | [BA1](/ba1-fonaments-ia/) | Fonaments i infraestructura d'IA | 1-4 | 12 | Sí |
 | [BA2](/ba2-comunicacio-professional/) | Comunicació professional amb IA | 5-11 | 21 | No |
-| [BA3](/ba3-contingut-fonts-visual/) | Contingut, fonts i comunicació visual | 12-23 | 36 | No |
-| [BA4](/ba4-dades-professionalitzacio/) | Dades i professionalització | 24-31 | 24 | Sí |
+| [BA3](/ba3-contingut-fonts-visual/) | Contingut, fonts i comunicació visual | 12-22 | 33 | No |
+| [BA4](/ba4-dades-professionalitzacio/) | Dades i professionalització | 23-30 | 24 | Sí |

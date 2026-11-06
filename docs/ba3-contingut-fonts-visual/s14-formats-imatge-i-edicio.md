@@ -1,13 +1,13 @@
 ---
 title: "Formats d'imatge i edició bàsica"
-sidebar_label: "S15 · Formats d'imatge i edició bàsica"
+sidebar_label: "S14 · Formats d'imatge i edició bàsica"
 sidebar_position: 4
-description: "Setmana 15 — Formats d'imatge i edició bàsica"
+description: "Setmana 14 — Formats d'imatge i edició bàsica"
 ---
 
 import Activitat from '@site/src/components/Activitat';
 
-# Setmana 15 — Formats d'imatge i edició bàsica
+# Setmana 14 — Formats d'imatge i edició bàsica
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part A del bloc
 
@@ -113,12 +113,12 @@ d'un equip avariat ha de mostrar l'avaria, no ser bonica.
 
 **Exportar.** Triar format i qualitat segons on anirà.
 
-<Activitat num={15}>
+<Activitat num={14}>
 
 ## Activitat: Cada imatge al seu format
 
 :::note Enunciat en format Word
-Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-15-formats-imatge-i-edicio.docx">Activitat-15-formats-imatge-i-edicio.docx</a>
+Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-14-formats-imatge-i-edicio.docx">Activitat-14-formats-imatge-i-edicio.docx</a>
 :::
 
 ### Context

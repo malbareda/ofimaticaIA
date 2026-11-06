@@ -50,7 +50,7 @@ El que mirem és si entens el que has lliurat, i això es veu amb tres preguntes
 Les de l'activitat, sí. És la meitat del lliurament.
 
 Si t'has fet servir la IA per a una cosa lateral —resoldre un dubte, entendre un
-error— no cal, tret que l'enunciat ho demani. Però a la sessió 30, per exemple,
+error— no cal, tret que l'enunciat ho demani. Però a la sessió 29, per exemple,
 documentar com vas fer servir la IA per resoldre un error d'instal·lació **és**
 l'activitat.
 
@@ -148,8 +148,8 @@ pot falsificar.
 Els apunts d'aquesta web tenen l'explicació sencera i l'enunciat de l'activitat.
 Mira-te'ls, fes l'activitat i parla amb el professorat per fer l'entrevista.
 
-Hi ha activitats que depenen de la sessió anterior —la 6 depèn de la 5, la 30
-depèn de la 29— i en aquests casos cal recuperar-les en ordre.
+Hi ha activitats que depenen de la sessió anterior —la 6 depèn de la 5, la 29
+depèn de la 28— i en aquests casos cal recuperar-les en ordre.
 
 ## Sobre privacitat
 

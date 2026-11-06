@@ -20,19 +20,18 @@ const activitats = {
   10: false,  // S10 — Correu: configuració i gestió
   11: false,  // S11 — Redacció de correus i agents
   12: false,  // S12 — Introducció a NotebookLM
-  13: false,  // S13 — Verificació de fonts
-  14: false,  // S14 — Combinació de fonts i síntesi
-  15: false,  // S15 — Formats d'imatge i edició
-  16: false,  // S16 — Generació d'imatges amb IA
-  17: false,  // S17 — Cas pràctic: fonts i imatge
-  18: false,  // S18 — Estructura i disseny de presentacions
-  19: false,  // S19 — Presentacions assistides per IA
-  20: false,  // S20 — Notes de ponent i exposició
-  21: false,  // S21 — Vídeo digital i música IA
-  22: false,  // S22 — Exposicions grup 1
-  23: false,  // S23 — Exposicions grup 2
-  29: false,  // S29 — Skills
-  30: false,  // S30 — Agent amb API
+  13: false,  // S13 — Verificació i combinació de fonts (inclou l'antiga S14)
+  14: false,  // S14 — Formats d'imatge i edició
+  15: false,  // S15 — Generació d'imatges amb IA
+  16: false,  // S16 — Cas pràctic: fonts i imatge
+  17: false,  // S17 — Estructura i disseny de presentacions
+  18: false,  // S18 — Presentacions assistides per IA
+  19: false,  // S19 — Notes de ponent i exposició
+  20: false,  // S20 — Vídeo digital i música IA
+  21: false,  // S21 — Exposicions grup 1
+  22: false,  // S22 — Exposicions grup 2
+  28: false,  // S28 — Skills
+  29: false,  // S29 — Agent amb API
 };
 
 export default activitats;

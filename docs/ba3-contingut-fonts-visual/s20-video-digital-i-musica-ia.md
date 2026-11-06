@@ -1,13 +1,13 @@
 ---
 title: "Vídeo digital i generació de música amb IA"
-sidebar_label: "S21 · Vídeo digital i generació de música amb IA"
+sidebar_label: "S20 · Vídeo digital i generació de música amb IA"
 sidebar_position: 10
-description: "Setmana 21 — Vídeo digital i generació de música amb IA"
+description: "Setmana 20 — Vídeo digital i generació de música amb IA"
 ---
 
 import Activitat from '@site/src/components/Activitat';
 
-# Setmana 21 — Vídeo digital i generació de música amb IA
+# Setmana 20 — Vídeo digital i generació de música amb IA
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part B del bloc
 
@@ -137,12 +137,12 @@ consideren un ús no autoritzat de la seva obra.
 No és una pregunta d'examen amb resposta única. Però la posició «no ho sabia» no
 és acceptable en algú que treballa d'això.
 
-<Activitat num={21}>
+<Activitat num={20}>
 
 ## Activitat: Videotutorial i sintonia
 
 :::note Enunciat en format Word
-Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-21-video-digital-i-musica-ia.docx">Activitat-21-video-digital-i-musica-ia.docx</a>
+Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-20-video-digital-i-musica-ia.docx">Activitat-20-video-digital-i-musica-ia.docx</a>
 :::
 
 ### Context

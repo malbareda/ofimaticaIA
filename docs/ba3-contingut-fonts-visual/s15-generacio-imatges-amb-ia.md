@@ -1,13 +1,13 @@
 ---
 title: "Generació d'imatges amb IA"
-sidebar_label: "S16 · Generació d'imatges amb IA"
+sidebar_label: "S15 · Generació d'imatges amb IA"
 sidebar_position: 5
-description: "Setmana 16 — Generació d'imatges amb IA"
+description: "Setmana 15 — Generació d'imatges amb IA"
 ---
 
 import Activitat from '@site/src/components/Activitat';
 
-# Setmana 16 — Generació d'imatges amb IA
+# Setmana 15 — Generació d'imatges amb IA
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part A del bloc
 
@@ -115,12 +115,12 @@ I una regla pràctica: **si demanes explícitament l'estil d'un artista viu i
 identificable, estàs en un terreny que no és clar**. Descriure un estil («aquarel·la
 amb traç solt») no és el mateix que dir un nom.
 
-<Activitat num={16}>
+<Activitat num={15}>
 
 ## Activitat: Del brief a la imatge
 
 :::note Enunciat en format Word
-Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-16-generacio-imatges-amb-ia.docx">Activitat-16-generacio-imatges-amb-ia.docx</a>
+Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-15-generacio-imatges-amb-ia.docx">Activitat-15-generacio-imatges-amb-ia.docx</a>
 :::
 
 ### Context

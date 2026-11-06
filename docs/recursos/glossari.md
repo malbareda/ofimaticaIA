@@ -20,7 +20,7 @@ ordres, segons els permisos que tingui.
 La diferència amb un xat és el risc: un xat que s'equivoca escriu una bestiesa i
 tu la llegeixes; un agent que s'equivoca **ja ho ha fet**.
 
-*Sessió 30.*
+*Sessió 29.*
 
 ### Al·lucinació
 
@@ -42,7 +42,7 @@ Quan fas servir una IA per API en comptes del xat web: hi accedeixes amb una
 **clau** en comptes d'un usuari, **pagues pel que consumeixes**, i tries el model
 a cada petició.
 
-*Sessions 3 i 30.*
+*Sessions 3 i 29.*
 
 ### Autoconsistència
 
@@ -88,7 +88,7 @@ sense PIN.
 La causa número u de filtració és pujar-la a un repositori públic dins d'un
 fitxer de codi.
 
-*Sessió 30.*
+*Sessió 29.*
 
 ### Còdec
 
@@ -96,14 +96,14 @@ Algorisme que comprimeix i descomprimeix vídeo o àudio (H.264, H.265, AV1). **
 és el mateix que el contenidor**: dos fitxers `.mp4` poden portar còdecs
 diferents i comportar-se de manera diferent.
 
-*Sessió 21.*
+*Sessió 20.*
 
 ### Contenidor
 
 Format de fitxer que empaqueta les pistes de vídeo, àudio i subtítols (MP4, MKV,
 MOV, WebM). Diu com està organitzat el fitxer, no com està comprimit.
 
-*Sessió 21.*
+*Sessió 20.*
 
 ### Context (finestra de)
 
@@ -154,7 +154,7 @@ immediata.
 Millora el resultat perquè cada instrucció és més simple, i sobretot perquè pots
 comprovar cada pas abans que contamini la resta.
 
-*Sessions 8, 14, 17 i 19.*
+*Sessions 8, 13, 16 i 18.*
 
 ### Few-shot
 
@@ -175,7 +175,7 @@ menys, però la pèrdua és **acumulativa** i es nota molt amb text i línies ne
 **Sense pèrdua** (PNG): no es perd res. Pesa més, i és el que has de fer servir
 per a captures, gràfics i qualsevol cosa amb text.
 
-*Sessió 15.*
+*Sessió 14.*
 
 ### Fuita de prompt
 
@@ -243,7 +243,7 @@ sobre a quina mida s'ha d'imprimir.
 
 El càlcul que has de saber fer: **píxels ÷ PPP = polzades**.
 
-*Sessió 15.*
+*Sessió 14.*
 
 ### Prompt
 
@@ -284,7 +284,7 @@ es pot compartir**. Té nom, descripció, instruccions i, opcionalment, recursos
 La part que decideix si funciona és la **descripció**: és l'únic que el sistema
 llegeix per decidir si l'activa.
 
-*Sessió 29.*
+*Sessió 28.*
 
 ### System prompt
 
@@ -294,6 +294,16 @@ Instruccions que s'apliquen a **tota** una conversa, sense haver-les de repetir.
 contractar-lo explicant-li la feina el primer dia.
 
 *Sessió 4.*
+
+### Tasca programada
+
+Instrucció que la IA executa **sola, en un moment fixat**: cada divendres a les
+14 h, el dia 1 de cada mes. A Gemini se'n diu *acció programada*.
+
+Com que quan s'executa no hi ha ningú per respondre preguntes, el prompt ha de
+ser **autosuficient**: ha de dir d'on surten les dades i què fer si no n'hi ha.
+
+*Sessió 28.*
 
 ### Temperatura
 
@@ -344,7 +354,7 @@ pot ampliar tant com vulguis perquè es torna a dibuixar cada vegada.
 
 Un logotip hauria de ser sempre vectorial.
 
-*Sessió 15.*
+*Sessió 14.*
 
 ### Zero-shot
 

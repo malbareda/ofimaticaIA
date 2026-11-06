@@ -1,13 +1,13 @@
 ---
 title: "Estructura i disseny de presentacions"
-sidebar_label: "S18 · Estructura i disseny de presentacions"
+sidebar_label: "S17 · Estructura i disseny de presentacions"
 sidebar_position: 7
-description: "Setmana 18 — Estructura i disseny de presentacions"
+description: "Setmana 17 — Estructura i disseny de presentacions"
 ---
 
 import Activitat from '@site/src/components/Activitat';
 
-# Setmana 18 — Estructura i disseny de presentacions
+# Setmana 17 — Estructura i disseny de presentacions
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part B del bloc
 
@@ -123,12 +123,12 @@ posar-hi text:
 - **Mode presentador**: notes i cronòmetre a la teva pantalla, la presentació a la
   del públic.
 
-<Activitat num={18}>
+<Activitat num={17}>
 
 ## Activitat: Rànquing a cegues
 
 :::note Enunciat en format Word
-Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-18-estructura-i-disseny-presentacions.docx">Activitat-18-estructura-i-disseny-presentacions.docx</a>
+Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-17-estructura-i-disseny-presentacions.docx">Activitat-17-estructura-i-disseny-presentacions.docx</a>
 :::
 
 ### Context

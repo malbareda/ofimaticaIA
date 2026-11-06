@@ -1,13 +1,13 @@
 ---
 title: "Exposicions orals (grup 1)"
-sidebar_label: "S22 · Exposicions orals (grup 1)"
+sidebar_label: "S21 · Exposicions orals (grup 1)"
 sidebar_position: 11
-description: "Setmana 22 — Exposicions orals (grup 1)"
+description: "Setmana 21 — Exposicions orals (grup 1)"
 ---
 
 import Activitat from '@site/src/components/Activitat';
 
-# Setmana 22 — Exposicions orals (grup 1)
+# Setmana 21 — Exposicions orals (grup 1)
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part B del bloc
 
@@ -31,7 +31,7 @@ En acabar la sessió has de ser capaç de:
 | **Durada per persona** | 10 minuts d'exposició + 5 de preguntes |
 | **Ordre** | Sorteig al començament de la sessió |
 | **Audiència** | El grup fa de client de Vallcorba Informàtica |
-| **Material** | La presentació de la sessió 19 i les notes de la sessió 20 |
+| **Material** | La presentació de la sessió 18 i les notes de la sessió 19 |
 
 ## Els perifèrics
 
@@ -55,7 +55,7 @@ notes. Passa cada any i és molt incòmode.
 
 ## Mentre exposes
 
-Res que no hagis assajat a la sessió 20:
+Res que no hagis assajat a la sessió 19:
 
 - Comença amb la primera frase que portes escrita.
 - Mira el públic, no la pantalla. Si has de mirar alguna cosa, mira les teves
@@ -98,12 +98,12 @@ I has de fer **almenys una pregunta** al llarg de la sessió. Preguntes que
 compten: sobre el contingut, sobre una decisió, sobre una dada. No compten les de
 compromís.
 
-<Activitat num={22}>
+<Activitat num={21}>
 
 ## Activitat: Exposició oral
 
 :::note Enunciat en format Word
-Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-22-exposicions-grup-1.docx">Activitat-22-exposicions-grup-1.docx</a>
+Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-21-exposicions-grup-1.docx">Activitat-21-exposicions-grup-1.docx</a>
 :::
 
 ### Què es lliura

@@ -1,11 +1,11 @@
 ---
 title: "Full de càlcul: entorn, referències i fórmules"
-sidebar_label: "S24 · Full de càlcul: entorn, referències i fórmules"
+sidebar_label: "S23 · Full de càlcul: entorn, referències i fórmules"
 sidebar_position: 1
-description: "Setmana 24 — Full de càlcul: entorn, referències i fórmules"
+description: "Setmana 23 — Full de càlcul: entorn, referències i fórmules"
 ---
 
-# Setmana 24 — Full de càlcul: entorn, referències i fórmules
+# Setmana 23 — Full de càlcul: entorn, referències i fórmules
 
 **BA4 — Dades i professionalització** · 3 h
 

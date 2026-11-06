@@ -1,11 +1,11 @@
 ---
 title: "El full com a base de dades: filtres, macros i intercanvi"
-sidebar_label: "S28 · El full com a base de dades: filtres, macros i intercanvi"
+sidebar_label: "S27 · El full com a base de dades: filtres, macros i intercanvi"
 sidebar_position: 5
-description: "Setmana 28 — El full com a base de dades: filtres, macros i intercanvi"
+description: "Setmana 27 — El full com a base de dades: filtres, macros i intercanvi"
 ---
 
-# Setmana 28 — El full com a base de dades: filtres, macros i intercanvi
+# Setmana 27 — El full com a base de dades: filtres, macros i intercanvi
 
 **BA4 — Dades i professionalització** · 3 h
 

@@ -18,8 +18,8 @@ Amb el compte del centre. Sense comptes personals ni autoritzacions.
 | **Google Docs** | Documents | S05 |
 | **Gemini a Docs** | IA integrada al processador de textos | S06 |
 | **Gmail i Calendar** | Correu i agenda | S10 |
-| **Google Sheets** | Fulls de càlcul | S24 |
-| **Google Slides** | Presentacions | S18 |
+| **Google Sheets** | Fulls de càlcul | S23 |
+| **Google Slides** | Presentacions | S17 |
 
 ### Per què l'Open WebUI és diferent
 
@@ -39,13 +39,13 @@ anys.
 
 | Eina | Per a què | Edat mínima | Des de |
 |---|---|---|---|
-| **ChatGPT** | Comparació i skills | 13 anys | S01 |
-| **Gemini** (web) | Comparació i generació d'imatge | 13 anys | S01 |
+| **ChatGPT** | Comparació | 13 anys | S01 |
+| **Gemini** (web) | Comparació, generació d'imatge, skills i tasques programades | 13 anys | S01 |
 | **NotebookLM** | IA amb fonts pròpies | 13 anys | S12 |
-| **Leonardo AI** | Generació d'imatges | 13 anys | S16 |
-| **Gamma** | Presentacions generades | 16 anys | S19 |
-| **Suno** | Generació de música | 13 anys | S21 |
-| **OpenRouter** | Accés per API a molts models | 13 anys | S30 |
+| **Leonardo AI** | Generació d'imatges | 13 anys | S15 |
+| **Gamma** | Presentacions generades | 16 anys | S18 |
+| **Suno** | Generació de música | 13 anys | S20 |
+| **OpenRouter** | Accés per API a molts models | 13 anys | S29 |
 
 :::warning Gemini i NotebookLM
 Amb compte **personal o del centre**, el mínim són 13 anys. Amb un compte de
@@ -75,9 +75,9 @@ Aquestes les concretarà el professorat el dia que toquin, perquè canvien:
 | Corrector ortogràfic per al navegador | S01 |
 | Comptador de tokens | S02 |
 | Client de correu | S10 |
-| Editor d'imatge | S15 |
-| Captura i edició de vídeo | S21 |
-| Agent de consola | S30 |
+| Editor d'imatge | S14 |
+| Captura i edició de vídeo | S20 |
+| Agent de consola | S29 |
 
 ## Recomanacions pràctiques
 

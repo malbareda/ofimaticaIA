@@ -1,11 +1,11 @@
 ---
 title: "Funcions: estadístiques, lògiques i de text"
-sidebar_label: "S25 · Funcions: estadístiques, lògiques i de text"
+sidebar_label: "S24 · Funcions: estadístiques, lògiques i de text"
 sidebar_position: 2
-description: "Setmana 25 — Funcions: estadístiques, lògiques i de text"
+description: "Setmana 24 — Funcions: estadístiques, lògiques i de text"
 ---
 
-# Setmana 25 — Funcions: estadístiques, lògiques i de text
+# Setmana 24 — Funcions: estadístiques, lògiques i de text
 
 **BA4 — Dades i professionalització** · 3 h
 

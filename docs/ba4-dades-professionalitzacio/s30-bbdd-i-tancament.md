@@ -1,11 +1,11 @@
 ---
 title: "Bases de dades i tancament del mòdul"
-sidebar_label: "S31 · Bases de dades i tancament del mòdul"
+sidebar_label: "S30 · Bases de dades i tancament del mòdul"
 sidebar_position: 8
-description: "Setmana 31 — Bases de dades i tancament del mòdul"
+description: "Setmana 30 — Bases de dades i tancament del mòdul"
 ---
 
-# Setmana 31 — Bases de dades i tancament del mòdul
+# Setmana 30 — Bases de dades i tancament del mòdul
 
 **BA4 — Dades i professionalització** · 3 h
 

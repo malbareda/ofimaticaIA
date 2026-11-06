@@ -1,11 +1,11 @@
 ---
 title: "Cerca i creuament de dades"
-sidebar_label: "S26 · Cerca i creuament de dades"
+sidebar_label: "S25 · Cerca i creuament de dades"
 sidebar_position: 3
-description: "Setmana 26 — Cerca i creuament de dades"
+description: "Setmana 25 — Cerca i creuament de dades"
 ---
 
-# Setmana 26 — Cerca i creuament de dades
+# Setmana 25 — Cerca i creuament de dades
 
 **BA4 — Dades i professionalització** · 3 h
 

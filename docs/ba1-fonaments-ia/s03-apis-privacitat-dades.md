@@ -182,7 +182,7 @@ estructura:
 2. **Eines analitzades** — la taula de la part 1.
 3. **Riscos identificats** — quins són i quina gravetat tenen.
 4. **Mesures previstes** — què farà Vallcorba Informàtica perquè no passi.
-5. **Conclusió** — una afirmació clara que respongui la seva pregunta.
+5. **Conclusió** — una afirmació clara que respongui a la seva pregunta.
 
 Ha d'estar escrit perquè el llegeixi un gestor, no un informàtic.
 

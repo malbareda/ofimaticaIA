@@ -115,7 +115,7 @@ Quan has de fer la mateixa cosa moltes vegades i vols que **surti sempre igual**
 classificar, extreure dades amb un format fix, reescriure amb un estil concret.
 
 Si això et passa sovint, ja no vols un prompt amb exemples: vols una
-[skill](/ba4-dades-professionalitzacio/s29-skills).
+[skill](/ba4-dades-professionalitzacio/s28-skills).
 :::
 
 ## Assignar un rol
@@ -256,7 +256,7 @@ Per què funciona millor que demanar-ho tot de cop:
   instruccions simples.
 - **Pots reprendre'l pel mig** si el pas 3 no queda bé, sense refer-ho tot.
 
-*Aplicat a les sessions 8, 14, 17 i 19.*
+*Aplicat a les sessions 8, 13, 16 i 18.*
 
 ## Demanar-li que millori el teu prompt ⭑
 
@@ -347,7 +347,7 @@ Si només en poses tres: **subjecte, llum i estil**.
 I en iterar, **canvia una sola variable cada vegada**. Si en canvies cinc i
 millora, no saps quina ho ha fet.
 
-*Sessió 16.*
+*Sessió 15.*
 
 ## Skills
 
@@ -357,7 +357,11 @@ que es guarda, s'activa sol i es comparteix.
 La part que decideix si funciona **no són les instruccions: és la descripció**,
 perquè és l'únic que el sistema llegeix per decidir si l'activa.
 
-*Sessió 29.*
+I quan la tasca es fa sempre en el mateix moment, es pot programar. Un prompt
+programat s'executa sense ningú al davant: **no pot fer preguntes**, ha de dir
+d'on surten les dades i què fer si no n'hi ha.
+
+*Sessió 28.*
 
 ## El que no funciona
 

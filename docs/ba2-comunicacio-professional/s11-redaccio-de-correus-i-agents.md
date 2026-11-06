@@ -131,7 +131,7 @@ El criteri és el mateix de sempre: **qui paga l'error i com de reversible és**
 Les tasques on l'error és barat i reversible es poden automatitzar; les que
 comprometen l'empresa davant d'un tercer, no.
 
-A la sessió 30 en muntaràs un de veritat. Avui n'has d'entendre el concepte i,
+A la sessió 29 en muntaràs un de veritat. Avui n'has d'entendre el concepte i,
 sobretot, on és el límit.
 
 <Activitat num={11}>

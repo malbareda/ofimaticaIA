@@ -1,13 +1,13 @@
 ---
 title: "Notes per al ponent i tècniques d'exposició"
-sidebar_label: "S20 · Notes per al ponent i tècniques d'exposició"
+sidebar_label: "S19 · Notes per al ponent i tècniques d'exposició"
 sidebar_position: 9
-description: "Setmana 20 — Notes per al ponent i tècniques d'exposició"
+description: "Setmana 19 — Notes per al ponent i tècniques d'exposició"
 ---
 
 import Activitat from '@site/src/components/Activitat';
 
-# Setmana 20 — Notes per al ponent i tècniques d'exposició
+# Setmana 19 — Notes per al ponent i tècniques d'exposició
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part B del bloc
 
@@ -103,17 +103,17 @@ podria arribar a una conclusió equivocada?**
 Si la resposta és sí, has simplificat massa.
 :::
 
-<Activitat num={20}>
+<Activitat num={19}>
 
 ## Activitat: Assaig en parelles
 
 :::note Enunciat en format Word
-Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-20-notes-de-ponent-i-exposicio.docx">Activitat-20-notes-de-ponent-i-exposicio.docx</a>
+Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-19-notes-de-ponent-i-exposicio.docx">Activitat-19-notes-de-ponent-i-exposicio.docx</a>
 :::
 
 ### Context
 
-L'exposició de les sessions 22 i 23 es fa davant del grup, que farà de client.
+L'exposició de les sessions 21 i 22 es fa davant del grup, que farà de client.
 Avui es prepara.
 
 > «El dia que exposeu davant d'un client no hi haurà cap eina que us salvi. El que
@@ -121,7 +121,7 @@ Avui es prepara.
 
 ### Part 1 — Les notes
 
-Prepara les notes de ponent de la presentació de la sessió 19.
+Prepara les notes de ponent de la presentació de la sessió 18.
 
 Requisits:
 

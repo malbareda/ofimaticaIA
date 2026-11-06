@@ -1,13 +1,13 @@
 ---
 title: "Exposicions orals (grup 2)"
-sidebar_label: "S23 · Exposicions orals (grup 2)"
+sidebar_label: "S22 · Exposicions orals (grup 2)"
 sidebar_position: 12
-description: "Setmana 23 — Exposicions orals (grup 2)"
+description: "Setmana 22 — Exposicions orals (grup 2)"
 ---
 
 import Activitat from '@site/src/components/Activitat';
 
-# Setmana 23 — Exposicions orals (grup 2)
+# Setmana 22 — Exposicions orals (grup 2)
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part B del bloc
 
@@ -29,7 +29,7 @@ En acabar la sessió has de ser capaç de:
 ## Tot el que necessites saber
 
 El format, la preparació dels perifèrics, les regles de les preguntes i els
-criteris d'avaluació són **exactament els mateixos de la sessió 22**.
+criteris d'avaluació són **exactament els mateixos de la sessió 21**.
 
 Torna-hi si necessites repassar-los.
 
@@ -52,12 +52,12 @@ Qui exposa la segona setmana i comet els mateixos errors que va apuntar la prime
 no ha fet servir l'avantatge que tenia.
 :::
 
-<Activitat num={23}>
+<Activitat num={22}>
 
 ## Activitat: Exposició oral
 
 :::note Enunciat en format Word
-Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-23-exposicions-grup-2.docx">Activitat-23-exposicions-grup-2.docx</a>
+Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-22-exposicions-grup-2.docx">Activitat-22-exposicions-grup-2.docx</a>
 :::
 
 ### Què es lliura
@@ -66,7 +66,7 @@ Aquesta activitat també està disponible com a document per lliurar al Moodle: 
 
 1. La presentació final en el format de l'eina **i en PDF**.
 2. Les notes de ponent.
-3. **Les fitxes de públic de la sessió 22** i, en dues línies, què has canviat de
+3. **Les fitxes de públic de la sessió 21** i, en dues línies, què has canviat de
    la teva exposició després d'haver vist els altres.
 
 **Durant la sessió:**
@@ -80,7 +80,7 @@ Aquesta activitat també està disponible com a document per lliurar al Moodle: 
 
 ### Com s'avalua
 
-Els mateixos criteris de la sessió 22, amb un afegit:
+Els mateixos criteris de la sessió 21, amb un afegit:
 
 | Criteri addicional | Què es mira |
 |---|---|
@@ -95,7 +95,7 @@ Els mateixos criteris de la sessió 22, amb un afegit:
 
 ### Preguntes que et poden fer
 
-Les mateixes de la sessió 22, més una:
+Les mateixes de la sessió 21, més una:
 
 - Vas veure exposar la meitat del grup. Què vas canviar de la teva exposició
   després d'allò?
@@ -109,9 +109,9 @@ Amb aquesta sessió es tanca el bloc més llarg del mòdul. Del que has fet aqu�
 que et servirà més no és cap eina concreta:
 
 - **Verificar abans de signar** (S13). Val per a tota la vida professional.
-- **Decidir l'estructura tu** (S14, S19). L'eina omple; tu ordenes.
-- **Mirar el teu propi resultat amb ulls de qui l'ha de validar** (S16, S18).
-- **Explicar-ho en veu alta** (S20, S22, S23). L'única part que no es pot delegar.
+- **Decidir l'estructura tu** (S13, S18). L'eina omple; tu ordenes.
+- **Mirar el teu propi resultat amb ulls de qui l'ha de validar** (S15, S17).
+- **Explicar-ho en veu alta** (S19, S21, S22). L'única part que no es pot delegar.
 
 A BA4 tot això s'aplica a dades, que és on la IA falla més i on es nota més
 de pressa.

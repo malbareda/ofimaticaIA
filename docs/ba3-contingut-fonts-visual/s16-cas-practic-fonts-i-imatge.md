@@ -1,13 +1,13 @@
 ---
 title: "Cas pràctic integrat: fonts i imatge"
-sidebar_label: "S17 · Cas pràctic integrat: fonts i imatge"
+sidebar_label: "S16 · Cas pràctic integrat: fonts i imatge"
 sidebar_position: 6
-description: "Setmana 17 — Cas pràctic integrat: fonts i imatge"
+description: "Setmana 16 — Cas pràctic integrat: fonts i imatge"
 ---
 
 import Activitat from '@site/src/components/Activitat';
 
-# Setmana 17 — Cas pràctic integrat: fonts i imatge
+# Setmana 16 — Cas pràctic integrat: fonts i imatge
 
 **BA3 — Contingut, fonts i comunicació visual** · 3 h · Part A del bloc
 
@@ -37,9 +37,9 @@ La diferència són coses que no es veuen quan les fas i sí quan falten:
 | Comprovació | Per què |
 |---|---|
 | Tot el que afirma està verificat contra una font | La sessió 13 |
-| Les imatges tenen el format i la resolució correctes | La sessió 15 |
-| Les imatges generades s'han revisat amb ulls crítics | La sessió 16 |
-| L'estructura respon a com es farà servir | La sessió 14 |
+| Les imatges tenen el format i la resolució correctes | La sessió 14 |
+| Les imatges generades s'han revisat amb ulls crítics | La sessió 15 |
+| L'estructura respon a com es farà servir | La sessió 13 |
 | El format són estils, no format manual | La sessió 5 |
 | Es pot imprimir sense que es desmunti | Perquè algú l'imprimirà |
 | Té data i qui l'ha fet | Perquè d'aquí a un any algú preguntarà |
@@ -67,12 +67,12 @@ Si una persona que no hi era llegeix la teva documentació, ha de poder fer una
 guia equivalent sobre un altre tema sense preguntar-te res.
 :::
 
-<Activitat num={17}>
+<Activitat num={16}>
 
 ## Activitat: Guia visual per a nous empleats
 
 :::note Enunciat en format Word
-Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-17-cas-practic-fonts-i-imatge.docx">Activitat-17-cas-practic-fonts-i-imatge.docx</a>
+Aquesta activitat també està disponible com a document per lliurar al Moodle: <a href="../activitats/Activitat-16-cas-practic-fonts-i-imatge.docx">Activitat-16-cas-practic-fonts-i-imatge.docx</a>
 :::
 
 ### Context
